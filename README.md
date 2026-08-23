@@ -1,4 +1,4 @@
-# Vladyslav-s-menu
+# Vladyslav`s menu
 A gorilla tag mod menu made form code other made
 
 <details>
@@ -13,5 +13,8 @@ A gorilla tag mod menu made form code other made
   <summary><b>Malachi</b></summary>
 He made the template i used for this menu
   
-https://discord.gg/malachi
+[Discord](https://discord.gg/malachi)
 </details>
+
+> Note<br> 
+> This product is not affiliated with Gorilla Tag or Another Axiom LLC and is not endorsed or otherwise sponsored by Another Axiom LLC. Portions of the materials contained herein are property of Another Axiom LLC. © 2026 Another Axiom LLC.<br>
