@@ -19,7 +19,7 @@ namespace Vladyslav_Menu
     {
         public const string Name = "Vladyslav`s menu";
         public const string GUID = "vladyslav.menu";
-        public const string Version = "0.0";
+        public const string Version = "0.1";
 
         private bool patchedHarmony = false;
         [System.Serializable]
