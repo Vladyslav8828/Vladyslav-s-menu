@@ -1,25 +1,21 @@
-
-# ITS BROKEN RN AND I WILLL FIND A FIX
-
-
 # Vladyslav`s menu
-A gorilla tag mod menu made form code other made
+A gorilla tag mod menu made form code other made and i fixed/used
 
 <details>
   <summary><b>Why open-source?</b></summary>
-- because I Malachi`s temp for it
+- because I IIDK`s temp for it
   
 <sub>also because i am nice :)</sub>
 </details>
 
 # Credits
 <details>
-  <summary><b>Malachi</b></summary>
-He made the template i used for this menu
+  <summary><b>IIDK</b></summary>
+He made the original template i used for this
 
-and the mods built in to the template
+and the mods built in to the template<sub>I am not sure about the built in ones</sub>
   
-[Discord](https://discord.gg/malachi)
+[Discord](https://discord.gg/iidk)
 </details>
 
 > Note<br> 
