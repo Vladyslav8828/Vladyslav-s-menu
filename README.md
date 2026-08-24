@@ -13,9 +13,9 @@ A gorilla tag mod menu made form code other made and i fixed/used
   <summary><b>IIDK</b></summary>
 He made the original template i used for this
 
-and the mods built in to the template  <sub>I think atleast</sub>
+and the mods built in to the template  <sub>I think atleast<sub>
   
-[Discord](https://discord.gg/iidk)
+[Discord](https://discord.gg/iidk)   <sub>@goldentrophy<sub>
 </details>
 
 > Note<br> 
