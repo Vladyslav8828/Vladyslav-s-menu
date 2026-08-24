@@ -1,89 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\menu\\buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\menu\\buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:menu\\buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\mods\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\mods\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:mods\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\notifications\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\notifications\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:notifications\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\notifications\\playerjoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\notifications\\playerjoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:notifications\\playerjoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\directory.build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\directory.build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:directory.build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\directory.build.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\directory.build.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:directory.build.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\patches\\patchhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\patchhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\patchhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\patches\\internal\\playfabtelemetrypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\internal\\playfabtelemetrypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\internal\\playfabtelemetrypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\patches\\internal\\rigpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\internal\\rigpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\internal\\rigpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\patches\\internal\\shaderfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\internal\\shaderfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\internal\\shaderfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\patches\\internal\\telemetrypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\internal\\telemetrypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\internal\\telemetrypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\notifications\\playerleave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\notifications\\playerleave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:notifications\\playerleave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\classes\\buttoncollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\classes\\buttoncollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:classes\\buttoncollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\classes\\buttoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\classes\\buttoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:classes\\buttoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\classes\\colorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\classes\\colorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:classes\\colorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\classes\\colorroundobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\classes\\colorroundobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:classes\\colorroundobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\classes\\extgradient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\classes\\extgradient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:classes\\extgradient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\classes\\rigmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\classes\\rigmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:classes\\rigmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\desktop\\mods gt\\tying to make my own menu\\vladyslav\u0060s menu\\menu\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\menu\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:menu\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -104,61 +104,57 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Directory.Build.props",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Directory.Build.props",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Directory.Build.props",
               "RelativeDocumentMoniker": "Directory.Build.props",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Directory.Build.props",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Directory.Build.props",
               "RelativeToolTip": "Directory.Build.props",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-08-24T14:44:11.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-24T14:44:11.844Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Directory.Build.targets",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Directory.Build.targets",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Directory.Build.targets",
               "RelativeDocumentMoniker": "Directory.Build.targets",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Directory.Build.targets",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Directory.Build.targets",
               "RelativeToolTip": "Directory.Build.targets",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-08-24T14:44:07.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-24T14:44:07.314Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Plugin.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Plugin.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Plugin.cs",
               "RelativeDocumentMoniker": "Plugin.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Plugin.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Plugin.cs",
               "RelativeToolTip": "Plugin.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T14:44:00.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-24T14:44:00.081Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "PluginInfo.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\PluginInfo.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\PluginInfo.cs",
               "RelativeDocumentMoniker": "PluginInfo.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\PluginInfo.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\PluginInfo.cs",
               "RelativeToolTip": "PluginInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T14:43:50.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-24T14:43:50.681Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "PlayFabTelemetryPatches.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Patches\\Internal\\PlayFabTelemetryPatches.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\PlayFabTelemetryPatches.cs",
               "RelativeDocumentMoniker": "Patches\\Internal\\PlayFabTelemetryPatches.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Patches\\Internal\\PlayFabTelemetryPatches.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\PlayFabTelemetryPatches.cs",
               "RelativeToolTip": "Patches\\Internal\\PlayFabTelemetryPatches.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -168,9 +164,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "RigPatch.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Patches\\Internal\\RigPatch.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\RigPatch.cs",
               "RelativeDocumentMoniker": "Patches\\Internal\\RigPatch.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Patches\\Internal\\RigPatch.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\RigPatch.cs",
               "RelativeToolTip": "Patches\\Internal\\RigPatch.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -180,9 +176,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "ShaderFix.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Patches\\Internal\\ShaderFix.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\ShaderFix.cs",
               "RelativeDocumentMoniker": "Patches\\Internal\\ShaderFix.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Patches\\Internal\\ShaderFix.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\ShaderFix.cs",
               "RelativeToolTip": "Patches\\Internal\\ShaderFix.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -192,9 +188,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "TelemetryPatches.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Patches\\Internal\\TelemetryPatches.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\TelemetryPatches.cs",
               "RelativeDocumentMoniker": "Patches\\Internal\\TelemetryPatches.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Patches\\Internal\\TelemetryPatches.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\TelemetryPatches.cs",
               "RelativeToolTip": "Patches\\Internal\\TelemetryPatches.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -204,48 +200,45 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "PatchHandler.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Patches\\PatchHandler.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\PatchHandler.cs",
               "RelativeDocumentMoniker": "Patches\\PatchHandler.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Patches\\PatchHandler.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\PatchHandler.cs",
               "RelativeToolTip": "Patches\\PatchHandler.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T02:16:58.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-24T02:16:58.364Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Library.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Notifications\\Library.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\Library.cs",
               "RelativeDocumentMoniker": "Notifications\\Library.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Notifications\\Library.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\Library.cs",
               "RelativeToolTip": "Notifications\\Library.cs",
               "ViewState": "AgIAAJUAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T02:16:44.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-24T02:16:44.601Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "PlayerJoin.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Notifications\\PlayerJoin.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\PlayerJoin.cs",
               "RelativeDocumentMoniker": "Notifications\\PlayerJoin.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Notifications\\PlayerJoin.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\PlayerJoin.cs",
               "RelativeToolTip": "Notifications\\PlayerJoin.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T02:16:40.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-24T02:16:40.741Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "PlayerLeave.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Notifications\\PlayerLeave.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\PlayerLeave.cs",
               "RelativeDocumentMoniker": "Notifications\\PlayerLeave.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Notifications\\PlayerLeave.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\PlayerLeave.cs",
               "RelativeToolTip": "Notifications\\PlayerLeave.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -255,9 +248,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "ButtonCollider.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Classes\\ButtonCollider.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ButtonCollider.cs",
               "RelativeDocumentMoniker": "Classes\\ButtonCollider.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Classes\\ButtonCollider.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ButtonCollider.cs",
               "RelativeToolTip": "Classes\\ButtonCollider.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -267,9 +260,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "ButtonInfo.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Classes\\ButtonInfo.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ButtonInfo.cs",
               "RelativeDocumentMoniker": "Classes\\ButtonInfo.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Classes\\ButtonInfo.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ButtonInfo.cs",
               "RelativeToolTip": "Classes\\ButtonInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -279,9 +272,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "ColorChanger.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Classes\\ColorChanger.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ColorChanger.cs",
               "RelativeDocumentMoniker": "Classes\\ColorChanger.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Classes\\ColorChanger.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ColorChanger.cs",
               "RelativeToolTip": "Classes\\ColorChanger.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -291,9 +284,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "ColorRoundObj.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Classes\\ColorRoundObj.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ColorRoundObj.cs",
               "RelativeDocumentMoniker": "Classes\\ColorRoundObj.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Classes\\ColorRoundObj.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ColorRoundObj.cs",
               "RelativeToolTip": "Classes\\ColorRoundObj.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -303,9 +296,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "ExtGradient.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Classes\\ExtGradient.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ExtGradient.cs",
               "RelativeDocumentMoniker": "Classes\\ExtGradient.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Classes\\ExtGradient.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ExtGradient.cs",
               "RelativeToolTip": "Classes\\ExtGradient.cs",
               "ViewState": "AgIAAIQAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -315,9 +308,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "RigManager.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Classes\\RigManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\RigManager.cs",
               "RelativeDocumentMoniker": "Classes\\RigManager.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Classes\\RigManager.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\RigManager.cs",
               "RelativeToolTip": "Classes\\RigManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -327,9 +320,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Buttons.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Menu\\Buttons.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Buttons.cs",
               "RelativeDocumentMoniker": "Menu\\Buttons.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Menu\\Buttons.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Buttons.cs",
               "RelativeToolTip": "Menu\\Buttons.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAgwDAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -340,22 +333,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Movement.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Mods\\Movement.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Mods\\Movement.cs",
               "RelativeDocumentMoniker": "Mods\\Movement.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Mods\\Movement.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Mods\\Movement.cs",
               "RelativeToolTip": "Mods\\Movement.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwFoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T01:19:40.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-24T01:19:40.541Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Menu\\Main.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Main.cs",
               "RelativeDocumentMoniker": "Menu\\Main.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\Mods gt\\TYING TO MAKE MY OWN MENU\\Vladyslav\u0060s menu\\Menu\\Main.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Main.cs",
               "RelativeToolTip": "Menu\\Main.cs",
               "ViewState": "AgIAABEBAAAAAAAAAAAYwCUBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
