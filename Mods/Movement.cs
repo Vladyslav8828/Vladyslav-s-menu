@@ -8,11 +8,11 @@ namespace VladyslavMenu.Mods
 {
     public class Movement
     {
-        public static void Fly()//
+        public static void Fly()
         {
             if (ControllerInputPoller.instance.rightControllerPrimaryButton)
             {
-                GTPlayer.Instance.transform.position += GorillaTagger.Instance.headCollider.transform.forward * 2f;
+                GTPlayer.Instance.transform.position += GorillaTagger.Instance.headCollider.transform.forward * 0.1f;
                 GorillaTagger.Instance.rigidbody.linearVelocity = Vector3.zero;
             }
         }
@@ -68,30 +68,6 @@ namespace VladyslavMenu.Mods
                     Object.Destroy(platr);
                     platr = null;
                 }
-            }
-        }
-
-        public static bool previousTeleportTrigger;
-        public static void TeleportGun()
-        {
-            if (ControllerInputPoller.instance.rightGrab)
-            {
-                var GunData = RenderGun();
-                GameObject NewPointer = GunData.NewPointer;
-
-                if (ControllerInputPoller.TriggerFloat(XRNode.RightHand) > 0.5f && !previousTeleportTrigger)
-                {
-                    GTPlayer.Instance.TeleportTo(NewPointer.transform.position + Vector3.up, GTPlayer.Instance.transform.rotation);
-                    GorillaTagger.Instance.rigidbody.linearVelocity = Vector3.zero;
-                }
-
-                previousTeleportTrigger = ControllerInputPoller.TriggerFloat(XRNode.RightHand) > 0.5f;
-            }
-            else
-            {
-                var gunData = RenderGun();
-                    Object.Destroy(gunData.NewPointer);
-                Object.Destroy(gunData.Ray.transform.gameObject);
             }
         }
     }
