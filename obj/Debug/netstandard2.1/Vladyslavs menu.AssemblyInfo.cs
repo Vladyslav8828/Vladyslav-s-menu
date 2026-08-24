@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vladyslavs menu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43314248aa3334e8cdf7c7d35094d1b0c8cbd787")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dabcb6da16c5d260be00106625d0b1e38e249d28")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vladyslavs menu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vladyslavs menu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
