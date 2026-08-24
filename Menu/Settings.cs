@@ -49,7 +49,7 @@ namespace VladyslavMenu
         public static bool rightHanded;
         public static bool disableNotifications;
 
-        public static KeyCode keyboardButton = KeyCode.Q;
+        public static KeyCode keyboardButton = KeyCode.Y;
 
         public static Vector3 menuSize = new Vector3(0.1f, 1f, 1.1f); // Depth, width, height
         public static int buttonsPerPage = 8;

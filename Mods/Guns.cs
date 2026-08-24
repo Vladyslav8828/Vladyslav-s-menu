@@ -1,7 +1,10 @@
 ﻿using GorillaLocomotion;
-using VladyslavMenu.Classes;
+using GorillaTag;
 using UnityEngine;
+using UnityEngine.Analytics;
 using UnityEngine.XR;
+using Valve.VR.InteractionSystem;
+using VladyslavMenu.Classes;
 using static VladyslavMenu.Menu.Main;
 
 namespace VladyslavMenu.Mods
@@ -15,11 +18,10 @@ namespace VladyslavMenu.Mods
             {
                 var GunData = RenderGun();
                 GameObject NewPointer = GunData.NewPointer;
-                //GameObject line = new GameObject("iiMenu_GunLine");
 
                 if (ControllerInputPoller.TriggerFloat(XRNode.RightHand) > 0.5f && !previousTeleportTrigger)
                 {
-                    GTPlayer.Instance.TeleportTo(NewPointer.transform.position + Vector3.up, GTPlayer.Instance.transform.rotation);
+                    GTPlayer.Instance.TeleportTo(NewPointer.transform.position, GTPlayer.Instance.transform.rotation);
                     GorillaTagger.Instance.rigidbody.linearVelocity = Vector3.zero;
                 }
 

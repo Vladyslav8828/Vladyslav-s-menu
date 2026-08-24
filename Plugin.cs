@@ -1,4 +1,7 @@
 ﻿using BepInEx;
+using UnityEngine;
+using UnityEngine.XR;
+using UnityEngine.XR.Management;
 
 namespace VladyslavMenu
 {
@@ -6,9 +9,20 @@ namespace VladyslavMenu
     [BepInPlugin(PluginInfo.GUID, PluginInfo.Name, PluginInfo.Version)]
     public class HarmonyPatches : BaseUnityPlugin
     {
-        private void Awake() =>
+        private void Awake()
+        {
             GorillaTagger.OnPlayerSpawned(OnPlayerSpawned);
-
+            //Logger.LogInfo($"Plugin {PluginInfo.Name} is loaded!");
+            Logger.LogInfo($"\r\n" +
+                           $" ▌ ▐·▄▄▌   ▄▄▄· ·▄▄▄▄   ▄· ▄▌.▄▄ · ▄▄▌   ▄▄▄·  ▌ ▐·  .▄▄ ·   • ▌ ▄ ·. ▄▄▄ . ▐ ▄ ▄• ▄▌\r\n" +
+                           $"▪█·█▌██•  ▐█ ▀█ ██· ██ ▐█▪██▌▐█ ▀. ██•  ▐█ ▀█ ▪█·█▌  ▐█ ▀.   ·██ ▐███▪▀▄.▀·•█▌▐██▪██▌\r\n" +
+                           $"▐█▐█•██ ▪ ▄█▀▀█ ▐█▪ ▐█▌▐█▌▐█▪▄▀▀▀█▄██ ▪ ▄█▀▀█ ▐█▐█•  ▄▀▀▀█▄  ▐█ ▌▐▌▐█·▐▀▀▪▄▐█▐▐▌█▌▐█▌\r\n" +
+                           $" ███ ▐█▌ ▄▐█▪ ▐▌██. ██  ▐█▀·.▐█▄▪▐█▐█▌ ▄▐█▪ ▐▌ ███   ▐█▄▪▐█  ██ ██▌▐█▌▐█▄▄▌██▐█▌▐█▄█▌\r\n" +
+                           $". ▀  .▀▀▀  ▀  ▀ ▀▀▀▀▀•   ▀ •  ▀▀▀▀ .▀▀▀  ▀  ▀ . ▀     ▀▀▀▀   ▀▀  █▪▀▀▀ ▀▀▀ ▀▀ █▪ ▀▀▀ \r\n" +
+                           $"                              {PluginInfo.Name}                                   \r\n" +
+                           $"                            {PluginInfo.Description}                                   \r\n" +
+                           $"                                    {PluginInfo.Version}                                   \r\n");
+        }
         public void OnPlayerSpawned() =>
             Patches.PatchHandler.PatchAll();
     }

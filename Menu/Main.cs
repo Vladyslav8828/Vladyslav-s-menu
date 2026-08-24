@@ -155,7 +155,7 @@ namespace VladyslavMenu.Menu
         }
             }.AddComponent<Text>();
             text.font = currentFont;
-            text.text = PluginInfo.Name;
+            text.text = $"{PluginInfo.Name}\r\n{PluginInfo.Version}";
             text.fontSize = 1;
             text.color = new Color(148f / 255f, 0f / 255f, 211f / 255f);
             text.supportRichText = true;
