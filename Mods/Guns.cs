@@ -21,7 +21,7 @@ namespace VladyslavMenu.Mods
 
                 if (ControllerInputPoller.TriggerFloat(XRNode.RightHand) > 0.5f && !previousTeleportTrigger)
                 {
-                    GTPlayer.Instance.TeleportTo(NewPointer.transform.position, GTPlayer.Instance.transform.rotation);
+                    GTPlayer.Instance.TeleportTo(NewPointer.transform.position + Vector3.up, GTPlayer.Instance.transform.rotation, keepVelocity: false, center: true);
                     GorillaTagger.Instance.rigidbody.linearVelocity = Vector3.zero;
                 }
 
