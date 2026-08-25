@@ -3,76 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\mods\\guns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:mods\\guns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\directory.build.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:directory.build.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\menu\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:menu\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\menu\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:menu\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\mods\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:mods\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\directory.build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:directory.build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\mods\\safety.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:mods\\safety.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\menu\\buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:menu\\buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\menu\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:menu\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\mods\\guns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:mods\\guns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\manageres\\coroutinemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:manageres\\coroutinemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\mods\\room mods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:mods\\room mods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\menu\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:menu\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\classes\\vrrigextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:classes\\vrrigextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\notifications\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:notifications\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\notifications\\playerjoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:notifications\\playerjoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\patchhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\patchhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\internal\\playfabtelemetrypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\internal\\playfabtelemetrypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\internal\\rigpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\internal\\rigpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\internal\\shaderfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\internal\\shaderfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\classes\\rigmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:classes\\rigmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\internal\\telemetrypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\internal\\telemetrypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\internal\\anticheatpatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\internal\\anticheatpatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\notifications\\playerleave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:notifications\\playerleave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\internal\\incrementrpcpatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\internal\\incrementrpcpatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\classes\\extgradient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:classes\\extgradient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\classes\\buttoncollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,20 +79,48 @@
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:classes\\buttoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\classes\\colorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:classes\\colorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\classes\\colorroundobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:classes\\colorroundobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\classes\\extgradient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:classes\\extgradient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\classes\\colorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:classes\\colorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\classes\\rigmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:classes\\rigmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\internal\\telemetrypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\internal\\telemetrypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\patchhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\patchhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\internal\\shaderfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\internal\\shaderfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\internal\\rigpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\internal\\rigpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\directory.build.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:directory.build.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\directory.build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:directory.build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\notifications\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:notifications\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\notifications\\playerjoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:notifications\\playerjoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\notifications\\playerleave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:notifications\\playerleave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,229 +138,215 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CoroutineManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Manageres\\CoroutineManager.cs",
+              "RelativeDocumentMoniker": "Manageres\\CoroutineManager.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Manageres\\CoroutineManager.cs",
+              "RelativeToolTip": "Manageres\\CoroutineManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T14:15:42.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Room mods.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Mods\\Room mods.cs",
+              "RelativeDocumentMoniker": "Mods\\Room mods.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Mods\\Room mods.cs",
+              "RelativeToolTip": "Mods\\Room mods.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T14:10:42.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Safety.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Mods\\Safety.cs",
+              "RelativeDocumentMoniker": "Mods\\Safety.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Mods\\Safety.cs",
+              "RelativeToolTip": "Mods\\Safety.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T11:52:46.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Buttons.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Buttons.cs",
+              "RelativeDocumentMoniker": "Menu\\Buttons.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Buttons.cs",
+              "RelativeToolTip": "Menu\\Buttons.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T01:33:55.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Main.cs",
+              "RelativeDocumentMoniker": "Menu\\Main.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Main.cs",
+              "RelativeToolTip": "Menu\\Main.cs",
+              "ViewState": "AgIAAG4BAAAAAAAAAAAgwHgBAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T01:19:37.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Settings.cs",
               "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Settings.cs",
               "RelativeDocumentMoniker": "Menu\\Settings.cs",
               "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Settings.cs",
               "RelativeToolTip": "Menu\\Settings.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAwDUAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwDsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T21:34:08.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Plugin.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Plugin.cs",
-              "RelativeDocumentMoniker": "Plugin.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Plugin.cs",
-              "RelativeToolTip": "Plugin.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADwvxAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T14:44:00.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PluginInfo.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\PluginInfo.cs",
-              "RelativeDocumentMoniker": "PluginInfo.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\PluginInfo.cs",
-              "RelativeToolTip": "PluginInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T14:43:50.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Directory.Build.props",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Directory.Build.props",
-              "RelativeDocumentMoniker": "Directory.Build.props",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Directory.Build.props",
-              "RelativeToolTip": "Directory.Build.props",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-08-24T14:44:11.844Z"
+              "WhenOpened": "2026-08-24T21:34:08.024Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Guns.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Mods\\Guns.cs",
+              "RelativeDocumentMoniker": "Mods\\Guns.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Mods\\Guns.cs",
+              "RelativeToolTip": "Mods\\Guns.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCEAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T18:28:05.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Movement.cs",
               "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Mods\\Movement.cs",
               "RelativeDocumentMoniker": "Mods\\Movement.cs",
               "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Mods\\Movement.cs",
               "RelativeToolTip": "Mods\\Movement.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAQwDQAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T01:19:40.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Guns.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Mods\\Guns.cs",
-              "RelativeDocumentMoniker": "Mods\\Guns.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Mods\\Guns.cs",
-              "RelativeToolTip": "Mods\\Guns.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB8AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T18:28:05.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Directory.Build.targets",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Directory.Build.targets",
-              "RelativeDocumentMoniker": "Directory.Build.targets",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Directory.Build.targets",
-              "RelativeToolTip": "Directory.Build.targets",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-08-24T14:44:07.314Z",
+              "Title": "PluginInfo.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\PluginInfo.cs",
+              "RelativeDocumentMoniker": "PluginInfo.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\PluginInfo.cs",
+              "RelativeToolTip": "PluginInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T14:43:50.681Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Buttons.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Buttons.cs",
-              "RelativeDocumentMoniker": "Menu\\Buttons.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Buttons.cs",
-              "RelativeToolTip": "Menu\\Buttons.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwAoAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T01:33:55.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Main.cs",
-              "RelativeDocumentMoniker": "Menu\\Main.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Main.cs",
-              "RelativeToolTip": "Menu\\Main.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAUwJ0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T01:19:37.388Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "VRRigExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\VRRigExtensions.cs",
+              "RelativeDocumentMoniker": "Classes\\VRRigExtensions.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\VRRigExtensions.cs",
+              "RelativeToolTip": "Classes\\VRRigExtensions.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwCsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T13:50:18.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\README.md",
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-08-24T21:04:41.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "PlayFabTelemetryPatches.cs",
               "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\PlayFabTelemetryPatches.cs",
               "RelativeDocumentMoniker": "Patches\\Internal\\PlayFabTelemetryPatches.cs",
               "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\PlayFabTelemetryPatches.cs",
               "RelativeToolTip": "Patches\\Internal\\PlayFabTelemetryPatches.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T02:17:15.411Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RigPatch.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\RigPatch.cs",
-              "RelativeDocumentMoniker": "Patches\\Internal\\RigPatch.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\RigPatch.cs",
-              "RelativeToolTip": "Patches\\Internal\\RigPatch.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Plugin.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Plugin.cs",
+              "RelativeDocumentMoniker": "Plugin.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Plugin.cs",
+              "RelativeToolTip": "Plugin.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T02:17:11.468Z"
+              "WhenOpened": "2026-08-24T14:44:00.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RigManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\RigManager.cs",
+              "RelativeDocumentMoniker": "Classes\\RigManager.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\RigManager.cs",
+              "RelativeToolTip": "Classes\\RigManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T02:15:18.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AntiCheatPatches.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\AntiCheatPatches.cs",
+              "RelativeDocumentMoniker": "Patches\\Internal\\AntiCheatPatches.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\AntiCheatPatches.cs",
+              "RelativeToolTip": "Patches\\Internal\\AntiCheatPatches.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T11:46:54.879Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "ShaderFix.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\ShaderFix.cs",
-              "RelativeDocumentMoniker": "Patches\\Internal\\ShaderFix.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\ShaderFix.cs",
-              "RelativeToolTip": "Patches\\Internal\\ShaderFix.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "IncrementRPCPatches.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\IncrementRPCPatches.cs",
+              "RelativeDocumentMoniker": "Patches\\Internal\\IncrementRPCPatches.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\IncrementRPCPatches.cs",
+              "RelativeToolTip": "Patches\\Internal\\IncrementRPCPatches.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T02:17:08.821Z"
+              "WhenOpened": "2026-08-25T11:47:58.593Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "TelemetryPatches.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\TelemetryPatches.cs",
-              "RelativeDocumentMoniker": "Patches\\Internal\\TelemetryPatches.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\TelemetryPatches.cs",
-              "RelativeToolTip": "Patches\\Internal\\TelemetryPatches.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Title": "ExtGradient.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ExtGradient.cs",
+              "RelativeDocumentMoniker": "Classes\\ExtGradient.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ExtGradient.cs",
+              "RelativeToolTip": "Classes\\ExtGradient.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T02:17:05.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PatchHandler.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\PatchHandler.cs",
-              "RelativeDocumentMoniker": "Patches\\PatchHandler.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\PatchHandler.cs",
-              "RelativeToolTip": "Patches\\PatchHandler.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T02:16:58.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Library.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\Library.cs",
-              "RelativeDocumentMoniker": "Notifications\\Library.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\Library.cs",
-              "RelativeToolTip": "Notifications\\Library.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T02:16:44.601Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PlayerJoin.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\PlayerJoin.cs",
-              "RelativeDocumentMoniker": "Notifications\\PlayerJoin.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\PlayerJoin.cs",
-              "RelativeToolTip": "Notifications\\PlayerJoin.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T02:16:40.741Z"
+              "WhenOpened": "2026-08-24T02:15:35.893Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "PlayerLeave.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\PlayerLeave.cs",
-              "RelativeDocumentMoniker": "Notifications\\PlayerLeave.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\PlayerLeave.cs",
-              "RelativeToolTip": "Notifications\\PlayerLeave.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T02:16:37.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "ButtonCollider.cs",
               "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ButtonCollider.cs",
               "RelativeDocumentMoniker": "Classes\\ButtonCollider.cs",
@@ -348,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "ButtonInfo.cs",
               "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ButtonInfo.cs",
               "RelativeDocumentMoniker": "Classes\\ButtonInfo.cs",
@@ -360,51 +370,135 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ColorRoundObj.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ColorRoundObj.cs",
+              "RelativeDocumentMoniker": "Classes\\ColorRoundObj.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ColorRoundObj.cs",
+              "RelativeToolTip": "Classes\\ColorRoundObj.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T02:15:49.213Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 20,
               "Title": "ColorChanger.cs",
               "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ColorChanger.cs",
               "RelativeDocumentMoniker": "Classes\\ColorChanger.cs",
               "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ColorChanger.cs",
               "RelativeToolTip": "Classes\\ColorChanger.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T02:15:52.86Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "ColorRoundObj.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ColorRoundObj.cs",
-              "RelativeDocumentMoniker": "Classes\\ColorRoundObj.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ColorRoundObj.cs",
-              "RelativeToolTip": "Classes\\ColorRoundObj.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Title": "TelemetryPatches.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\TelemetryPatches.cs",
+              "RelativeDocumentMoniker": "Patches\\Internal\\TelemetryPatches.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\TelemetryPatches.cs",
+              "RelativeToolTip": "Patches\\Internal\\TelemetryPatches.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T02:15:49.213Z"
+              "WhenOpened": "2026-08-24T02:17:05.668Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "ExtGradient.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ExtGradient.cs",
-              "RelativeDocumentMoniker": "Classes\\ExtGradient.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ExtGradient.cs",
-              "RelativeToolTip": "Classes\\ExtGradient.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Title": "PatchHandler.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\PatchHandler.cs",
+              "RelativeDocumentMoniker": "Patches\\PatchHandler.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\PatchHandler.cs",
+              "RelativeToolTip": "Patches\\PatchHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T02:15:35.893Z"
+              "WhenOpened": "2026-08-24T02:16:58.364Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "RigManager.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\RigManager.cs",
-              "RelativeDocumentMoniker": "Classes\\RigManager.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\RigManager.cs",
-              "RelativeToolTip": "Classes\\RigManager.cs",
+              "Title": "ShaderFix.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\ShaderFix.cs",
+              "RelativeDocumentMoniker": "Patches\\Internal\\ShaderFix.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\ShaderFix.cs",
+              "RelativeToolTip": "Patches\\Internal\\ShaderFix.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T02:15:18.405Z"
+              "WhenOpened": "2026-08-24T02:17:08.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RigPatch.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\RigPatch.cs",
+              "RelativeDocumentMoniker": "Patches\\Internal\\RigPatch.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\RigPatch.cs",
+              "RelativeToolTip": "Patches\\Internal\\RigPatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T02:17:11.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Directory.Build.targets",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Directory.Build.targets",
+              "RelativeDocumentMoniker": "Directory.Build.targets",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Directory.Build.targets",
+              "RelativeToolTip": "Directory.Build.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-08-24T14:44:07.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Directory.Build.props",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Directory.Build.props",
+              "RelativeDocumentMoniker": "Directory.Build.props",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Directory.Build.props",
+              "RelativeToolTip": "Directory.Build.props",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-08-24T14:44:11.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Library.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\Library.cs",
+              "RelativeDocumentMoniker": "Notifications\\Library.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\Library.cs",
+              "RelativeToolTip": "Notifications\\Library.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T02:16:44.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PlayerJoin.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\PlayerJoin.cs",
+              "RelativeDocumentMoniker": "Notifications\\PlayerJoin.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\PlayerJoin.cs",
+              "RelativeToolTip": "Notifications\\PlayerJoin.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T02:16:40.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PlayerLeave.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\PlayerLeave.cs",
+              "RelativeDocumentMoniker": "Notifications\\PlayerLeave.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Notifications\\PlayerLeave.cs",
+              "RelativeToolTip": "Notifications\\PlayerLeave.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T02:16:37.797Z"
             }
           ]
         }

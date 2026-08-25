@@ -1,8 +1,6 @@
 using BepInEx;
 using GorillaLocomotion;
 using HarmonyLib;
-using VladyslavMenu.Classes;
-using VladyslavMenu.Notifications;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +8,9 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using UnityEngine.XR;
+using UnityEngine.XR.Interaction.Toolkit;
+using VladyslavMenu.Classes;
+using VladyslavMenu.Notifications;
 using static VladyslavMenu.Menu.Buttons;
 using static VladyslavMenu.Settings;
 
@@ -37,70 +38,70 @@ namespace VladyslavMenu.Menu
         public static void Prefix()
         {
             // Initialize Menu
-                try
-                {
-                    bool toOpen = (!rightHanded && ControllerInputPoller.instance.leftControllerSecondaryButton) || (rightHanded && ControllerInputPoller.instance.rightControllerSecondaryButton);
-                    bool keyboardOpen = UnityInput.Current.GetKey(keyboardButton);
+            try
+            {
+                bool toOpen = (!rightHanded && ControllerInputPoller.instance.leftControllerSecondaryButton) || (rightHanded && ControllerInputPoller.instance.rightControllerSecondaryButton);
+                bool keyboardOpen = UnityInput.Current.GetKey(keyboardButton);
 
-                    if (menu == null)
+                if (menu == null)
+                {
+                    if (toOpen || keyboardOpen)
                     {
-                        if (toOpen || keyboardOpen)
-                        {
-                            CreateMenu();
-                            RecenterMenu(rightHanded, keyboardOpen);
-                            if (reference == null)
-                                CreateReference(rightHanded);
-                        }
+                        CreateMenu();
+                        RecenterMenu(rightHanded, keyboardOpen);
+                        if (reference == null)
+                            CreateReference(rightHanded);
                     }
+                }
+                else
+                {
+                    if (toOpen || keyboardOpen)
+                        RecenterMenu(rightHanded, keyboardOpen);
                     else
                     {
-                        if (toOpen || keyboardOpen)
-                            RecenterMenu(rightHanded, keyboardOpen);
-                        else
-                        {
-                            GameObject.Find("Shoulder Camera").transform.Find("CM vcam1").gameObject.SetActive(true);
+                        GameObject.Find("Shoulder Camera").transform.Find("CM vcam1").gameObject.SetActive(true);
 
-                            Rigidbody comp = menu.AddComponent(typeof(Rigidbody)) as Rigidbody;
-                            comp.linearVelocity = (rightHanded ? GTPlayer.Instance.LeftHand.velocityTracker : GTPlayer.Instance.RightHand.velocityTracker).GetAverageVelocity(true, 0);
+                        Rigidbody comp = menu.AddComponent(typeof(Rigidbody)) as Rigidbody;
+                        comp.linearVelocity = (rightHanded ? GTPlayer.Instance.LeftHand.velocityTracker : GTPlayer.Instance.RightHand.velocityTracker).GetAverageVelocity(true, 0);
 
-                            Destroy(menu, 2f);
-                            menu = null;
+                        Destroy(menu, 2f);
+                        menu = null;
 
-                            Destroy(reference);
-                            reference = null;
-                        }
+                        Destroy(reference);
+                        reference = null;
                     }
                 }
-                catch (Exception exc)
-                {
-                    Debug.LogError(string.Format("{0} // Error initializing at {1}: {2}", PluginInfo.Name, exc.StackTrace, exc.Message));
-                }
+            }
+            catch (Exception exc)
+            {
+                Debug.LogError(string.Format("{0} // Error initializing at {1}: {2}", PluginInfo.Name, exc.StackTrace, exc.Message));
+            }
 
             // Constant
-                try
-                {
-                    // Pre-Execution
-                        if (fpsObject != null)
-                            fpsObject.text = "FPS: " + Mathf.Ceil(1f / Time.unscaledDeltaTime).ToString();
+            try
+            {
+                // Pre-Execution
+                if (fpsObject != null)
+                    fpsObject.text = "FPS: " + Mathf.Ceil(1f / Time.unscaledDeltaTime).ToString();
 
-                    // Execute Enabled Mods
-                        foreach (ButtonInfo button in buttons
-                            .SelectMany(list => list)
-                            .Where(button => button.enabled && button.method != null))
-                        {
-                            try
-                            {
-                                button.method.Invoke();
-                            }
-                            catch (Exception exc)
-                            {
-                                Debug.LogError(string.Format("{0} // Error with mod {1} at {2}: {3}", PluginInfo.Name, button.buttonText, exc.StackTrace, exc.Message));
-                            }
-                        }
-                } catch (Exception exc)
+                // Execute Enabled Mods
+                foreach (ButtonInfo button in buttons
+                    .SelectMany(list => list)
+                    .Where(button => button.enabled && button.method != null))
                 {
-                    Debug.LogError(string.Format("{0} // Error with executing mods at {1}: {2}", PluginInfo.Name, exc.StackTrace, exc.Message));
+                    try
+                    {
+                        button.method.Invoke();
+                    }
+                    catch (Exception exc)
+                    {
+                        Debug.LogError(string.Format("{0} // Error with mod {1} at {2}: {3}", PluginInfo.Name, button.buttonText, exc.StackTrace, exc.Message));
+                    }
                 }
+            } catch (Exception exc)
+            {
+                Debug.LogError(string.Format("{0} // Error with executing mods at {1}: {2}", PluginInfo.Name, exc.StackTrace, exc.Message));
+            }
         }
 
         // Functions
@@ -126,15 +127,20 @@ namespace VladyslavMenu.Menu
             RoundObj(menuBackground, 0.03f);
 
             // Outline
-            GameObject MenuOutline = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            UnityEngine.Object.Destroy(MenuOutline.GetComponent<Rigidbody>());
-            UnityEngine.Object.Destroy(MenuOutline.GetComponent<BoxCollider>());
-            MenuOutline.transform.parent = menu.transform;
-            MenuOutline.transform.rotation = Quaternion.identity;
-            MenuOutline.transform.localScale = new Vector3(0.098f, 1.01f, 1.11f);
-            MenuOutline.transform.position = new Vector3(0.05f, 0f, 0f);
-            MenuOutline.GetComponent<Renderer>().material.color = new Color(148f / 255f, 0f / 255f, 211f / 255f);
-            RoundObj(MenuOutline, 0.03f);
+
+            //enable or disable menu outline
+            if (Settings.MenuOutline == true)
+            {
+                GameObject MenuOutline = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                UnityEngine.Object.Destroy(MenuOutline.GetComponent<Rigidbody>());
+                UnityEngine.Object.Destroy(MenuOutline.GetComponent<BoxCollider>());
+                MenuOutline.transform.parent = menu.transform;
+                MenuOutline.transform.rotation = Quaternion.identity;
+                MenuOutline.transform.localScale = new Vector3(0.098f, 1.01f, 1.11f);
+                MenuOutline.transform.position = new Vector3(0.05f, 0f, 0f);
+                MenuOutline.GetComponent<Renderer>().material.color = new Color(148f / 255f, 0f / 255f, 211f / 255f);
+                RoundObj(MenuOutline, 0.03f);
+            }
 
 
             // Canvas
@@ -172,7 +178,7 @@ namespace VladyslavMenu.Menu
             if (disconnectButton)
             {
                 GameObject disconnectbutton = GameObject.CreatePrimitive(PrimitiveType.Cube);
-                if (!UnityInput.Current.GetKey(KeyCode.Q))
+                if (!UnityInput.Current.GetKey(KeyCode.Y))
                 {
                     disconnectbutton.layer = 2;
                 }
@@ -187,19 +193,22 @@ namespace VladyslavMenu.Menu
                 RoundObj(disconnectbutton, 0.03f);
 
                 GameObject disconnectbuttonOutline = GameObject.CreatePrimitive(PrimitiveType.Cube);
-                if (!UnityInput.Current.GetKey(KeyCode.Q))
+                if (!UnityInput.Current.GetKey(KeyCode.Y))
                 {
                     disconnectbutton.layer = 2;
                 }
-                UnityEngine.Object.Destroy(disconnectbuttonOutline.GetComponent<Rigidbody>());
-                disconnectbuttonOutline.GetComponent<BoxCollider>().isTrigger = true;
-                disconnectbuttonOutline.transform.parent = menu.transform;
-                disconnectbuttonOutline.transform.rotation = Quaternion.identity;
-                disconnectbuttonOutline.transform.localScale = new Vector3(0.089f, 0.91f, 0.09f);
-                disconnectbuttonOutline.transform.localPosition = new Vector3(0.56f, 0f, 0.62f);
-                disconnectbuttonOutline.GetComponent<Renderer>().material.color = new Color(148f / 255f, 0f / 255f, 211f / 255f);
-                RoundObj(disconnectbuttonOutline, 0.03f);
-
+                //enable or disable disconnect button outline
+                if (Settings.MenuOutline == true) 
+                {
+                    UnityEngine.Object.Destroy(disconnectbuttonOutline.GetComponent<Rigidbody>());
+                    disconnectbuttonOutline.GetComponent<BoxCollider>().isTrigger = true;
+                    disconnectbuttonOutline.transform.parent = menu.transform;
+                    disconnectbuttonOutline.transform.rotation = Quaternion.identity;
+                    disconnectbuttonOutline.transform.localScale = new Vector3(0.089f, 0.91f, 0.09f);
+                    disconnectbuttonOutline.transform.localPosition = new Vector3(0.56f, 0f, 0.62f);
+                    disconnectbuttonOutline.GetComponent<Renderer>().material.color = new Color(148f / 255f, 0f / 255f, 211f / 255f);
+                    RoundObj(disconnectbuttonOutline, 0.03f);
+                }
 
                 Text discontext = new GameObject
                 {
@@ -224,7 +233,7 @@ namespace VladyslavMenu.Menu
             }
 
             GameObject gameObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            if (!UnityInput.Current.GetKey(KeyCode.Q))
+            if (!UnityInput.Current.GetKey(KeyCode.Y))
             {
                 gameObject.layer = 2;
             }
@@ -239,19 +248,23 @@ namespace VladyslavMenu.Menu
             RoundObj(gameObject);
 
             GameObject Outline1 = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            if (!UnityInput.Current.GetKey(KeyCode.Q))
+            if (!UnityInput.Current.GetKey(KeyCode.Y))
             {
                 gameObject.layer = 2;
             }
-            UnityEngine.Object.Destroy(Outline1.GetComponent<Rigidbody>());
-            Outline1.GetComponent<BoxCollider>().isTrigger = true;
-            Outline1.transform.parent = menu.transform;
-            Outline1.transform.rotation = Quaternion.identity;
-            Outline1.transform.localScale = new Vector3(0.058f, 0.435f, 0.107f);
-            Outline1.transform.localPosition = new Vector3(0.56f, 0.24f, -0.475f);
-            Outline1.GetComponent<Renderer>().material.color = new Color(148f / 255f, 0f / 255f, 211f / 255f);
-            Outline1.AddComponent<Classes.Button>().relatedText = "NextPage";
-            RoundObj(Outline1);
+            //enable or disable button outline
+            if (Settings.MenuOutline == true)
+            {
+                UnityEngine.Object.Destroy(Outline1.GetComponent<Rigidbody>());
+                Outline1.GetComponent<BoxCollider>().isTrigger = true;
+                Outline1.transform.parent = menu.transform;
+                Outline1.transform.rotation = Quaternion.identity;
+                Outline1.transform.localScale = new Vector3(0.058f, 0.435f, 0.107f);
+                Outline1.transform.localPosition = new Vector3(0.56f, 0.24f, -0.475f);
+                Outline1.GetComponent<Renderer>().material.color = new Color(148f / 255f, 0f / 255f, 211f / 255f);
+                Outline1.AddComponent<Classes.Button>().relatedText = "NextPage";
+                RoundObj(Outline1);
+            }
 
 
             text = new GameObject
@@ -275,7 +288,7 @@ namespace VladyslavMenu.Menu
             component.rotation = Quaternion.Euler(new Vector3(180f, 90f, 90f));
 
             gameObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            if (!UnityInput.Current.GetKey(KeyCode.Q))
+            if (!UnityInput.Current.GetKey(KeyCode.Y))
             {
                 gameObject.layer = 2;
             }
@@ -290,19 +303,23 @@ namespace VladyslavMenu.Menu
             RoundObj(gameObject);
 
             GameObject Outline = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            if (!UnityInput.Current.GetKey(KeyCode.Q))
+            if (!UnityInput.Current.GetKey(KeyCode.Y))
             {
                 gameObject.layer = 2;
             }
-            UnityEngine.Object.Destroy(Outline.GetComponent<Rigidbody>());
-            Outline.GetComponent<BoxCollider>().isTrigger = true;
-            Outline.transform.parent = menu.transform;
-            Outline.transform.rotation = Quaternion.identity;
-            Outline.transform.localScale = new Vector3(0.058f, 0.435f, 0.107f);
-            Outline.transform.localPosition = new Vector3(0.56f, -0.24f, -0.475f);
-            Outline.GetComponent<Renderer>().material.color = new Color(148f / 255f, 0f / 255f, 211f / 255f);
-            Outline.AddComponent<Classes.Button>().relatedText = "NextPage";
-            RoundObj(Outline);
+            if (Settings.MenuOutline == true)
+            {
+                UnityEngine.Object.Destroy(Outline.GetComponent<Rigidbody>());
+                Outline.GetComponent<BoxCollider>().isTrigger = true;
+                Outline.transform.parent = menu.transform;
+                Outline.transform.rotation = Quaternion.identity;
+                Outline.transform.localScale = new Vector3(0.058f, 0.435f, 0.107f);
+                Outline.transform.localPosition = new Vector3(0.56f, -0.24f, -0.475f);
+                Outline.GetComponent<Renderer>().material.color = new Color(148f / 255f, 0f / 255f, 211f / 255f);
+                Outline.AddComponent<Classes.Button>().relatedText = "NextPage";
+                RoundObj(Outline);
+            }
+
 
             text = new GameObject
             {
@@ -337,7 +354,7 @@ namespace VladyslavMenu.Menu
         public static void CreateButton(float offset, ButtonInfo method)
         {
             GameObject gameObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            if (!UnityInput.Current.GetKey(KeyCode.Q))
+            if (!UnityInput.Current.GetKey(KeyCode.Y))
             {
                 gameObject.layer = 2;
             }
@@ -352,22 +369,23 @@ namespace VladyslavMenu.Menu
             RoundObj(gameObject);
 
             GameObject ButtonOutline = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            if (!UnityInput.Current.GetKey(KeyCode.Q))
+            if (!UnityInput.Current.GetKey(KeyCode.Y))
             {
                 ButtonOutline.layer = 2;
             }
-            UnityEngine.Object.Destroy(ButtonOutline.GetComponent<Rigidbody>());
-            ButtonOutline.GetComponent<BoxCollider>().isTrigger = true;
-            ButtonOutline.transform.parent = menu.transform;
-            ButtonOutline.transform.rotation = Quaternion.identity;
-            ButtonOutline.transform.localScale = new Vector3(0.058f, 0.915f, 0.09f);
-            ButtonOutline.transform.localPosition = new Vector3(0.56f, 0f, 0.34f - offset);
-            ButtonOutline.AddComponent<Classes.Button>().relatedText = method.buttonText;
-            ButtonOutline.GetComponent<Renderer>().material.color = new Color(148f / 255f, 0f / 255f, 211f / 255f);
-            RoundObj(ButtonOutline);
-
-
-
+            //enable or disable button outline
+            if (Settings.MenuOutline == true) 
+            {
+                UnityEngine.Object.Destroy(ButtonOutline.GetComponent<Rigidbody>());
+                ButtonOutline.GetComponent<BoxCollider>().isTrigger = true;
+                ButtonOutline.transform.parent = menu.transform;
+                ButtonOutline.transform.rotation = Quaternion.identity;
+                ButtonOutline.transform.localScale = new Vector3(0.058f, 0.915f, 0.09f);
+                ButtonOutline.transform.localPosition = new Vector3(0.56f, 0f, 0.34f - offset);
+                ButtonOutline.AddComponent<Classes.Button>().relatedText = method.buttonText;
+                ButtonOutline.GetComponent<Renderer>().material.color = new Color(148f / 255f, 0f / 255f, 211f / 255f);
+                RoundObj(ButtonOutline);
+            }
 
 
             Text text = new GameObject
@@ -844,7 +862,7 @@ namespace VladyslavMenu.Menu
 
             if (GunLine == null)
             {
-                GameObject line = new GameObject("iiMenu_GunLine");
+                GameObject line = new GameObject("VladyslavMenu_GunLine");
                 GunLine = line.AddComponent<LineRenderer>();
             }
 

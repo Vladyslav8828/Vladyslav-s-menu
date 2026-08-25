@@ -31,7 +31,7 @@ namespace VladyslavMenu.Mods
             {
                 var gunData = RenderGun();
                 Object.Destroy(gunData.NewPointer);
-                Object.Destroy(GameObject.Find("iiMenu_GunLine"));
+                Object.Destroy(GameObject.Find("VladyslavMenu_GunLine"));
             }
         }
     }

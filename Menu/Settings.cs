@@ -1,5 +1,6 @@
 ﻿using VladyslavMenu.Classes;
 using UnityEngine;
+using VladyslavMenu.Menu;
 
 namespace VladyslavMenu
 {
@@ -55,5 +56,7 @@ namespace VladyslavMenu
         public static int buttonsPerPage = 8;
 
         public static float gradientSpeed = 0.5f; // Speed of colors
+
+        public static bool MenuOutline = true;
     }
 }

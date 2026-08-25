@@ -1,4 +1,5 @@
-﻿using VladyslavMenu.Classes;
+﻿using UnityEngine.UI;
+using VladyslavMenu.Classes;
 using VladyslavMenu.Mods;
 using static VladyslavMenu.Menu.Main;
 using static VladyslavMenu.Settings;
@@ -25,7 +26,7 @@ namespace VladyslavMenu.Menu
                 new ButtonInfo { buttonText = "Settings", method =() => currentCategory = 1, isTogglable = false, toolTip = "Opens the main settings page for the menu."},
                 new ButtonInfo { buttonText = "Room Mods", method =() => currentCategory = 4, isTogglable = false, toolTip = "Opens the room mods tab."},
                 new ButtonInfo { buttonText = "Movement Mods", method =() => currentCategory = 5, isTogglable = false, toolTip = "Opens the movement mods tab."},
-                new ButtonInfo { buttonText = "Safety Mods", method =() => currentCategory = 6, isTogglable = false, toolTip = "Opens the safety mods tab."},
+                new ButtonInfo { buttonText = "Safety", method =() => currentCategory = 6, isTogglable = false, toolTip = "Opens the safety mods tab."},
                 new ButtonInfo { buttonText = "Guns", method =() => currentCategory = 7, isTogglable = false, toolTip = "Opens the Guns tab."},
             },
 
@@ -41,6 +42,7 @@ namespace VladyslavMenu.Menu
                 new ButtonInfo { buttonText = "Notifications", enableMethod =() => disableNotifications = false, disableMethod =() => disableNotifications = true, enabled = !disableNotifications, toolTip = "Toggles the notifications."},
                 new ButtonInfo { buttonText = "FPS Counter", enableMethod =() => fpsCounter = true, disableMethod =() => fpsCounter = false, enabled = fpsCounter, toolTip = "Toggles the FPS counter."},
                 new ButtonInfo { buttonText = "Disconnect Button", enableMethod =() => disconnectButton = true, disableMethod =() => disconnectButton = false, enabled = disconnectButton, toolTip = "Toggles the disconnect button."},
+                new ButtonInfo { buttonText = "Disable Outlines", enableMethod =() => MenuOutline = false, disableMethod =() => MenuOutline = true, toolTip = "Toggles the menu outline."},
             },
 
             new ButtonInfo[] { // Movement Settings [3]
@@ -53,6 +55,7 @@ namespace VladyslavMenu.Menu
                 new ButtonInfo { buttonText = "Return to Main", method =() => currentCategory = 0, isTogglable = false, toolTip = "Returns to the main page of the menu."},
 
                 new ButtonInfo { buttonText = "Disconnect", method =() => NetworkSystem.Instance.ReturnToSinglePlayer(), isTogglable = false, toolTip = "Disconnects you from the room."},
+                //new ButtonInfo { buttonText = "Reconnect", method =() => Room_mods.Reconnect(), isTogglable = false, toolTip = "Reconnects you to the room."}, broken btw
             },
 
             new ButtonInfo[] { // Movement Mods [5]
@@ -63,10 +66,11 @@ namespace VladyslavMenu.Menu
                 new ButtonInfo { buttonText = "Fly", method =() => Movement.Fly(), toolTip = "Sends you forward when holding A."},
             },
 
-            new ButtonInfo[] { // Safety Mods [6]
+            new ButtonInfo[] { // Safety [6]
                 new ButtonInfo { buttonText = "Return to Main", method =() => currentCategory = 0, isTogglable = false, toolTip = "Returns to the main page of the menu."},
 
-                new ButtonInfo { buttonText = "soon", toolTip = "soon"},
+                new ButtonInfo { buttonText = "Anti-Report <color=grey>[</color><color=green>Disconnect</color><color=grey>]</color>", method =() => Safety.AntiReportDisconnect(), toolTip = "Disconnects you from the room if you are reported."},
+                //new ButtonInfo { buttonText = "Anti-Report <color=grey>[</color><color=green>Reconnect</color><color=grey>]</color>", method =() => Safety.AntiReportReconnect(), toolTip = "Disconnects you from the room if you are reported and reconnects you."}, broken btw
             },
 
             new ButtonInfo[] { // Guns [7]
