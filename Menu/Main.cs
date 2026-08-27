@@ -1,8 +1,10 @@
 using BepInEx;
 using GorillaLocomotion;
+using GorillaTagScripts;
 using HarmonyLib;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -10,6 +12,7 @@ using UnityEngine.UI;
 using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 using VladyslavMenu.Classes;
+using VladyslavMenu.Managers;
 using VladyslavMenu.Notifications;
 using static VladyslavMenu.Menu.Buttons;
 using static VladyslavMenu.Settings;
@@ -37,6 +40,7 @@ namespace VladyslavMenu.Menu
         // Constant
         public static void Prefix()
         {
+            CreateMenuFolders();
             // Initialize Menu
             try
             {
@@ -907,6 +911,14 @@ namespace VladyslavMenu.Menu
                 _currentCategory = value;
                 pageNumber = 0;
             }
+        }
+
+        //just a reminder for later to use strings when writing files to a folder :)
+        public static void CreateMenuFolders()
+        {
+            Directory.CreateDirectory(FileAndFolderManager.MenuFolderDirectory);
+
+            Directory.CreateDirectory(FileAndFolderManager.SettingsFolderDirectory);
         }
     }
 }

@@ -28,6 +28,7 @@ namespace VladyslavMenu.Menu
                 new ButtonInfo { buttonText = "Movement Mods", method =() => currentCategory = 5, isTogglable = false, toolTip = "Opens the movement mods tab."},
                 new ButtonInfo { buttonText = "Safety", method =() => currentCategory = 6, isTogglable = false, toolTip = "Opens the safety mods tab."},
                 new ButtonInfo { buttonText = "Guns", method =() => currentCategory = 7, isTogglable = false, toolTip = "Opens the Guns tab."},
+                new ButtonInfo { buttonText = "Other", method =() => currentCategory = 8, isTogglable = false, toolTip = "Opens the Other tab."},
             },
 
             new ButtonInfo[] { // Settings [1]
@@ -55,7 +56,6 @@ namespace VladyslavMenu.Menu
                 new ButtonInfo { buttonText = "Return to Main", method =() => currentCategory = 0, isTogglable = false, toolTip = "Returns to the main page of the menu."},
 
                 new ButtonInfo { buttonText = "Disconnect", method =() => NetworkSystem.Instance.ReturnToSinglePlayer(), isTogglable = false, toolTip = "Disconnects you from the room."},
-                //new ButtonInfo { buttonText = "Reconnect", method =() => Room_mods.Reconnect(), isTogglable = false, toolTip = "Reconnects you to the room."}, broken btw
             },
 
             new ButtonInfo[] { // Movement Mods [5]
@@ -70,13 +70,22 @@ namespace VladyslavMenu.Menu
                 new ButtonInfo { buttonText = "Return to Main", method =() => currentCategory = 0, isTogglable = false, toolTip = "Returns to the main page of the menu."},
 
                 new ButtonInfo { buttonText = "Anti-Report <color=grey>[</color><color=green>Disconnect</color><color=grey>]</color>", method =() => Safety.AntiReportDisconnect(), toolTip = "Disconnects you from the room if you are reported."},
-                //new ButtonInfo { buttonText = "Anti-Report <color=grey>[</color><color=green>Reconnect</color><color=grey>]</color>", method =() => Safety.AntiReportReconnect(), toolTip = "Disconnects you from the room if you are reported and reconnects you."}, broken btw
             },
 
             new ButtonInfo[] { // Guns [7]
                 new ButtonInfo { buttonText = "Return to Main", method =() => currentCategory = 0, isTogglable = false, toolTip = "Returns to the main page of the menu."},
 
                 new ButtonInfo { buttonText = "Teleport Gun", method =() => Guns.TeleportGun(), toolTip = "Teleports you to where you point."},
+                //new ButtonInfo { buttonText = "Light Gun <color=grey>[</color><color=green>Ghost Reactor Lightning</color><color=grey>]</color> <color=grey>[</color><color=green>CS</color><color=grey>]</color>", method =() => Guns.LightGun(), toolTip = "Spawns a light on your gun."},
+            },
+
+            new ButtonInfo[] { // Other [8]
+                new ButtonInfo { buttonText = "Return to Main", method =() => currentCategory = 0, isTogglable = false, toolTip = "Returns to the main page of the menu."},
+
+                new ButtonInfo { buttonText = "Attic <color=grey>[</color><color=green>CS</color><color=grey>]</color>",  enableMethod =() => Other.OgMonkeyBlocksOn(), disableMethod =() => Other.OgMonkeyBlocksOff(),toolTip = "Trys to bring back the attic for the old days"},
+                new ButtonInfo { buttonText = "Ghost Reactor Lightning <color=grey>[</color><color=green>CS</color><color=grey>]</color>", enableMethod =() => Other.GhostReactorLightning(), disableMethod =() => Other.GhostReactorLightningOff(),toolTip = "Toggles the ghost reactor lightning."},
+                new ButtonInfo { buttonText = "FlashLight <color=grey>[</color><color=green>Ghost Reactor Lightning</color><color=grey>]</color> <color=grey>[</color><color=green>CS</color><color=grey>]</color>", enableMethod =() => Other.GhostReactorCameraLight(), disableMethod =() => Other.GhostReactorCameraLightOff(),toolTip = "Spawns a light on your head."},
+                //new ButtonInfo { buttonText = "Lights Preset <color=grey>[</color><color=green>Ghost Reactor Lightning</color><color=grey>]</color> <color=grey>[</color><color=green>CS</color><color=grey>]</color>", enableMethod =() => Other.GhostReactorLightsPreset(), disableMethod =() => Other.GhostReactorLightsPresetOff(),toolTip = "Spawns a light on your hand."},
             },
         };
     }

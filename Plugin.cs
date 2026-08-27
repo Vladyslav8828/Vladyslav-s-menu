@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.Management;
+using VladyslavMenu.Managers;
 
 namespace VladyslavMenu
 {
@@ -12,7 +13,6 @@ namespace VladyslavMenu
         private void Awake()
         {
             GorillaTagger.OnPlayerSpawned(OnPlayerSpawned);
-            //Logger.LogInfo($"Plugin {PluginInfo.Name} is loaded!");
             Logger.LogInfo($"\r\n" +
                            $" ▌ ▐·▄▄▌   ▄▄▄· ·▄▄▄▄   ▄· ▄▌.▄▄ · ▄▄▌   ▄▄▄·  ▌ ▐·  .▄▄ ·   • ▌ ▄ ·. ▄▄▄ . ▐ ▄ ▄• ▄▌\r\n" +
                            $"▪█·█▌██•  ▐█ ▀█ ██· ██ ▐█▪██▌▐█ ▀. ██•  ▐█ ▀█ ▪█·█▌  ▐█ ▀.   ·██ ▐███▪▀▄.▀·•█▌▐██▪██▌\r\n" +

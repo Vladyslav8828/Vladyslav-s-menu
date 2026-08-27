@@ -8,6 +8,7 @@ namespace VladyslavMenu.Mods
 {
     public class Movement
     {
+        #region Fly
         public static void Fly()
         {
             if (ControllerInputPoller.instance.rightControllerPrimaryButton)
@@ -16,7 +17,9 @@ namespace VladyslavMenu.Mods
                 GorillaTagger.Instance.rigidbody.linearVelocity = Vector3.zero;
             }
         }
+        #endregion
 
+        #region Platforms
         public static GameObject platl;
         public static GameObject platr;
 
@@ -70,5 +73,6 @@ namespace VladyslavMenu.Mods
                 }
             }
         }
+        #endregion
     }
 }

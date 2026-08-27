@@ -9,10 +9,10 @@ namespace VladyslavMenu.Classes
     {
         public static VRRig GetVRRigFromPlayer(Player p) =>
             GorillaGameManager.instance.FindPlayerVRRig(p);
-        /*
+
         public static VRRig GetRandomVRRig(bool includeSelf)
         {
-            VRRig random = GorillaParent.instance.vrrigs[Random.Range(0, GorillaParent.instance.vrrigs.Count - 1)];
+            VRRig random = VRRigExtensions.ActiveRigs[Random.Range(0, VRRigExtensions.ActiveRigs.Count - 1)];
             if (includeSelf)
                 return random;
             else
@@ -23,13 +23,11 @@ namespace VladyslavMenu.Classes
                     return GetRandomVRRig(includeSelf);
             }
         }
-        */
-        /*
         public static VRRig GetClosestVRRig()
         {
             float num = float.MaxValue;
             VRRig outRig = null;
-            foreach (VRRig vrrig in GorillaParent.instance.vrrigs)
+            foreach (VRRig vrrig in VRRigExtensions.ActiveRigs)
             {
                 if (Vector3.Distance(GorillaTagger.Instance.bodyCollider.transform.position, vrrig.transform.position) < num)
                 {
@@ -39,7 +37,6 @@ namespace VladyslavMenu.Classes
             }
             return outRig;
         }
-        */
         public static PhotonView GetPhotonViewFromVRRig(VRRig p) =>
             (PhotonView)Traverse.Create(p).Field("photonView").GetValue();
 
@@ -67,7 +64,7 @@ namespace VladyslavMenu.Classes
             }
             return found;
         }
-/*
+        /*
         public static Color GetPlayerColor(VRRig Player)
         {
             if (Player.bodyRenderer.cosmeticBodyType == GorillaBodyType.Skeleton)
@@ -89,6 +86,6 @@ namespace VladyslavMenu.Classes
                     return Player.playerColor;
             }
         }
-*/
+        */
     }
 }

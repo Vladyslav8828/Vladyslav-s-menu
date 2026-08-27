@@ -57,16 +57,5 @@ namespace VladyslavMenu.Mods
                 NotifiLib.SendNotification("<color=grey>[</color><color=purple>ANTI-REPORT</color><color=grey>]</color> " + GetPlayerFromVRRig(vrrig).NickName + " attempted to report you, you have been disconnected.");
             });
         }
-        public static void AntiReportReconnect()//seralyth
-        {
-            AntiReport((vrrig, position) =>
-            {
-                if (!(Time.time > antiReportDelay)) return;
-                Room_mods.Reconnect();
-
-                antiReportDelay = Time.time + 1f;
-                NotifiLib.SendNotification("<color=grey>[</color><color=purple>ANTI-REPORT</color><color=grey>]</color> " + GetPlayerFromVRRig(vrrig).NickName + " attempted to report you, you have been disconnected and will be reconnected.");
-            });
-        }
     }
 }
