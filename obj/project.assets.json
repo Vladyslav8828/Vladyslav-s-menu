@@ -1,7 +1,7 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
-    "netstandard2.1": {
+    ".NETStandard,Version=v2.1": {
       "BepInEx.AssemblyPublicizer.MSBuild/0.4.3": {
         "type": "package",
         "compile": {
@@ -56,41 +56,34 @@
     }
   },
   "projectFileDependencyGroups": {
-    "netstandard2.1": [
+    ".NETStandard,Version=v2.1": [
       "BepInEx.AssemblyPublicizer.MSBuild >= 0.4.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Татьяна\\.nuget\\packages\\": {},
-    "D:\\Program Files\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/vladyslav/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Татьяна\\Documents\\GitHub\\Vladyslav-s-menu\\Vladyslavs menu.csproj",
+      "projectUniqueName": "/home/vladyslav/Documents/MyMods/Vladyslav-s-menu/Vladyslavs menu.csproj",
       "projectName": "Vladyslavs menu",
-      "projectPath": "C:\\Users\\Татьяна\\Documents\\GitHub\\Vladyslav-s-menu\\Vladyslavs menu.csproj",
-      "packagesPath": "C:\\Users\\Татьяна\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Татьяна\\Documents\\GitHub\\Vladyslav-s-menu\\obj\\",
+      "projectPath": "/home/vladyslav/Documents/MyMods/Vladyslav-s-menu/Vladyslavs menu.csproj",
+      "packagesPath": "/home/vladyslav/.nuget/packages/",
+      "outputPath": "/home/vladyslav/Documents/MyMods/Vladyslav-s-menu/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Program Files\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Татьяна\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/vladyslav/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
-          "framework": "netstandard2.1",
           "targetAlias": "netstandard2.1",
           "projectReferences": {}
         }
@@ -105,11 +98,10 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "netstandard2.1": {
-        "framework": "netstandard2.1",
         "targetAlias": "netstandard2.1",
         "dependencies": {
           "BepInEx.AssemblyPublicizer.MSBuild": {
@@ -130,12 +122,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "NETStandard.Library.Ref",
+            "version": "[2.1.0, 2.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "NETStandard.Library": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.111/RuntimeIdentifierGraph.json"
       }
     }
   }

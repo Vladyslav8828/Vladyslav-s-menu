@@ -43,7 +43,8 @@ namespace VladyslavMenu.Menu
                 new ButtonInfo { buttonText = "Notifications", enableMethod =() => disableNotifications = false, disableMethod =() => disableNotifications = true, enabled = !disableNotifications, toolTip = "Toggles the notifications."},
                 new ButtonInfo { buttonText = "FPS Counter", enableMethod =() => fpsCounter = true, disableMethod =() => fpsCounter = false, enabled = fpsCounter, toolTip = "Toggles the FPS counter."},
                 new ButtonInfo { buttonText = "Disconnect Button", enableMethod =() => disconnectButton = true, disableMethod =() => disconnectButton = false, enabled = disconnectButton, toolTip = "Toggles the disconnect button."},
-                new ButtonInfo { buttonText = "Disable Outlines", enableMethod =() => MenuOutline = false, disableMethod =() => MenuOutline = true, toolTip = "Toggles the menu outline."},
+                new ButtonInfo { buttonText = "Outlines", enableMethod =() => MenuOutline = true, disableMethod =() => MenuOutline = false, enabled = true, toolTip = "Toggles the menu outline."},
+                new ButtonInfo { buttonText = "Body/Torso", enableMethod =() => MenuBody = true, disableMethod =() => MenuBody = false, enabled = true, toolTip = "Toggles the menu body."},
             },
 
             new ButtonInfo[] { // Movement Settings [3]
@@ -82,7 +83,7 @@ namespace VladyslavMenu.Menu
             new ButtonInfo[] { // Other [8]
                 new ButtonInfo { buttonText = "Return to Main", method =() => currentCategory = 0, isTogglable = false, toolTip = "Returns to the main page of the menu."},
 
-                new ButtonInfo { buttonText = "Attic <color=grey>[</color><color=green>CS</color><color=grey>]</color>",  enableMethod =() => Other.OgMonkeyBlocksOn(), disableMethod =() => Other.OgMonkeyBlocksOff(),toolTip = "Trys to bring back the attic for the old days"},
+                //new ButtonInfo { buttonText = "Attic <color=grey>[</color><color=green>CS</color><color=grey>]</color>",  enableMethod =() => Other.OgMonkeyBlocksOn(), disableMethod =() => Other.OgMonkeyBlocksOff(),toolTip = "Trys to bring back the attic for the old days"}, //broken rn and i am lazy to fix
                 new ButtonInfo { buttonText = "Ghost Reactor Lightning <color=grey>[</color><color=green>CS</color><color=grey>]</color>", enableMethod =() => Other.GhostReactorLightning(), disableMethod =() => Other.GhostReactorLightningOff(),toolTip = "Toggles the ghost reactor lightning."},
                 new ButtonInfo { buttonText = "FlashLight <color=grey>[</color><color=green>Ghost Reactor Lightning</color><color=grey>]</color> <color=grey>[</color><color=green>CS</color><color=grey>]</color>", enableMethod =() => Other.GhostReactorCameraLight(), disableMethod =() => Other.GhostReactorCameraLightOff(),toolTip = "Spawns a light on your head."},
                 //new ButtonInfo { buttonText = "Lights Preset <color=grey>[</color><color=green>Ghost Reactor Lightning</color><color=grey>]</color> <color=grey>[</color><color=green>CS</color><color=grey>]</color>", enableMethod =() => Other.GhostReactorLightsPreset(), disableMethod =() => Other.GhostReactorLightsPresetOff(),toolTip = "Spawns a light on your hand."},

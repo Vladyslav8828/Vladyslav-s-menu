@@ -119,16 +119,20 @@ namespace VladyslavMenu.Menu
             menu.transform.localScale = new Vector3(0.1f, 0.3f, 0.3825f);
 
             // Menu Background
-            menuBackground = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            UnityEngine.Object.Destroy(menuBackground.GetComponent<Rigidbody>());
-            UnityEngine.Object.Destroy(menuBackground.GetComponent<BoxCollider>());
-            menuBackground.transform.parent = menu.transform;
-            menuBackground.transform.rotation = Quaternion.identity;
-            menuBackground.transform.localScale = menuSize;
-            menuBackground.GetComponent<Renderer>().material.color = backgroundColor.colors[0].color;
-            menuBackground.transform.position = new Vector3(0.05f, 0f, 0f);
-            menuBackground.GetComponent<Renderer>().material.color = new Color(20f / 255f, 10f / 255f, 30f / 255f);
-            RoundObj(menuBackground, 0.03f);
+            //enable or disable menu body or what ever you call it
+            if (Settings.MenuBody == true)
+            {  
+                menuBackground = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                UnityEngine.Object.Destroy(menuBackground.GetComponent<Rigidbody>());
+                UnityEngine.Object.Destroy(menuBackground.GetComponent<BoxCollider>());
+                menuBackground.transform.parent = menu.transform;
+                menuBackground.transform.rotation = Quaternion.identity;
+                menuBackground.transform.localScale = menuSize;
+                menuBackground.GetComponent<Renderer>().material.color = backgroundColor.colors[0].color;
+                menuBackground.transform.position = new Vector3(0.05f, 0f, 0f);
+                menuBackground.GetComponent<Renderer>().material.color = new Color(20f / 255f, 10f / 255f, 30f / 255f);
+                RoundObj(menuBackground, 0.03f);
+            }
 
             // Outline
 

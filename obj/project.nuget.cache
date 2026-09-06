@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "TNOeiO/NBRw=",
+  "dgSpecHash": "ppV0zg4K5bQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Татьяна\\Documents\\GitHub\\Vladyslav-s-menu\\Vladyslavs menu.csproj",
+  "projectFilePath": "/home/vladyslav/Documents/MyMods/Vladyslav-s-menu/Vladyslavs menu.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Татьяна\\.nuget\\packages\\bepinex.assemblypublicizer.msbuild\\0.4.3\\bepinex.assemblypublicizer.msbuild.0.4.3.nupkg.sha512"
+    "/home/vladyslav/.nuget/packages/bepinex.assemblypublicizer.msbuild/0.4.3/bepinex.assemblypublicizer.msbuild.0.4.3.nupkg.sha512",
+    "/home/vladyslav/.nuget/packages/netstandard.library.ref/2.1.0/netstandard.library.ref.2.1.0.nupkg.sha512"
   ],
   "logs": []
 }

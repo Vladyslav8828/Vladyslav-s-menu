@@ -2,6 +2,7 @@
 
   <PropertyGroup>
 	  <TargetFramework>netstandard2.1</TargetFramework>
+	  <LangVersion>10.0</LangVersion>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -9,6 +10,10 @@
     <StartProgram>C:\Windows\explorer.exe</StartProgram>
     <StartArguments>steam://run/1533390</StartArguments>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Patches\Internal\LightingManagerPatches.cs" />
+  </ItemGroup>
 
   <!-- AssemblyPublicizer usage inspired from GorillaShirts -->
   <ItemGroup>
@@ -20,106 +25,106 @@
 
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\BepInEx\core\0Harmony.dll</HintPath>
+      <HintPath>$(BepInExAssemblyPath)\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="AA.Mothership">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\AA.Mothership.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\AA.Mothership.dll</HintPath>
     </Reference>
     <Reference Include="ALINE">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\ALINE.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\ALINE.dll</HintPath>
     </Reference>
     <Reference Include="andywiecko.BurstTriangulator">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\andywiecko.BurstTriangulator.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\andywiecko.BurstTriangulator.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="AssistantCoreSDKRuntime">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\AssistantCoreSDKRuntime.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\AssistantCoreSDKRuntime.dll</HintPath>
     </Reference>
     <Reference Include="AssistantVoiceCommandCommon">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\AssistantVoiceCommandCommon.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\AssistantVoiceCommandCommon.dll</HintPath>
     </Reference>
     <Reference Include="AstarPathfindingProject">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\AstarPathfindingProject.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\AstarPathfindingProject.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.Fbx">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Autodesk.Fbx.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\Autodesk.Fbx.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.Fbx.BuildTestAssets">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Autodesk.Fbx.BuildTestAssets.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\Autodesk.Fbx.BuildTestAssets.dll</HintPath>
     </Reference>
     <Reference Include="BakeryAPV">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\BakeryAPV.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\BakeryAPV.dll</HintPath>
     </Reference>
     <Reference Include="BakeryECS">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\BakeryECS.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\BakeryECS.dll</HintPath>
     </Reference>
     <Reference Include="BakeryRuntimeAssembly">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\BakeryRuntimeAssembly.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\BakeryRuntimeAssembly.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\BepInEx\core\BepInEx.dll</HintPath>
+      <HintPath>$(BepInExAssemblyPath)\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx.Harmony">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\BepInEx\core\BepInEx.Harmony.dll</HintPath>
+      <HintPath>$(BepInExAssemblyPath)\BepInEx.Harmony.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx.Preloader">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\BepInEx\core\BepInEx.Preloader.dll</HintPath>
+      <HintPath>$(BepInExAssemblyPath)\BepInEx.Preloader.dll</HintPath>
     </Reference>
     <Reference Include="Fusion.Common">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Fusion.Common.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\Fusion.Common.dll</HintPath>
     </Reference>
     <Reference Include="Fusion.Log">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Fusion.Log.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\Fusion.Log.dll</HintPath>
     </Reference>
     <Reference Include="Fusion.Realtime">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Fusion.Realtime.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\Fusion.Realtime.dll</HintPath>
     </Reference>
     <Reference Include="Fusion.Runtime">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Fusion.Runtime.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\Fusion.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Fusion.Sockets">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Fusion.Sockets.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\Fusion.Sockets.dll</HintPath>
     </Reference>
     <Reference Include="Fusion.Unity">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Fusion.Unity.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\Fusion.Unity.dll</HintPath>
     </Reference>
     <Reference Include="geometry3Sharp">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\geometry3Sharp.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\geometry3Sharp.dll</HintPath>
     </Reference>
     <Reference Include="GT_CustomMapSupportRuntime">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\GT_CustomMapSupportRuntime.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\GT_CustomMapSupportRuntime.dll</HintPath>
     </Reference>
     <Reference Include="HarmonyXInterop">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\BepInEx\core\HarmonyXInterop.dll</HintPath>
+      <HintPath>$(BepInExAssemblyPath)\HarmonyXInterop.dll</HintPath>
     </Reference>
     <Reference Include="KID">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\KID.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\KID.dll</HintPath>
     </Reference>
     <Reference Include="LIV.LCK">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\LIV.LCK.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\LIV.LCK.dll</HintPath>
     </Reference>
     <Reference Include="LIV.LCK.Streaming">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\LIV.LCK.Streaming.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\LIV.LCK.Streaming.dll</HintPath>
     </Reference>
     <Reference Include="LIV.LCKCore">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\LIV.LCKCore.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\LIV.LCKCore.dll</HintPath>
     </Reference>
     <Reference Include="LIV.LCKCore.ThirdParty.MessagePack">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\LIV.LCKCore.ThirdParty.MessagePack.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\LIV.LCKCore.ThirdParty.MessagePack.dll</HintPath>
     </Reference>
     <Reference Include="LIV.LCK_GorillaTag">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\LIV.LCK_GorillaTag.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\Managed\LIV.LCK_GorillaTag.dll</HintPath>
     </Reference>
     <Reference Include="LIV.NativeAudioBridge">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\LIV.NativeAudioBridge.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\LIV.NativeAudioBridge.dll</HintPath>
     </Reference>
     <Reference Include="Meta.XR.MultiplayerBlocks.Fusion">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Meta.XR.MultiplayerBlocks.Fusion.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\Meta.XR.MultiplayerBlocks.Fusion.dll</HintPath>
     </Reference>
     <Reference Include="Modio">
       <HintPath>$(GameAssemblyPath)\Modio.dll</HintPath>
@@ -134,31 +139,31 @@
       <HintPath>$(GameAssemblyPath)\Modio.Unity.UI.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Photon3Unity3D.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="PhotonRealtime">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonRealtime.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\PhotonRealtime.dll</HintPath>
     </Reference>
     <Reference Include="PhotonUnityNetworking">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonUnityNetworking.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\PhotonUnityNetworking.dll</HintPath>
     </Reference>
     <Reference Include="PhotonUnityNetworking.Utilities">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonUnityNetworking.Utilities.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\PhotonUnityNetworking.Utilities.dll</HintPath>
     </Reference>
     <Reference Include="PhotonVoice">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonVoice.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\PhotonVoice.dll</HintPath>
     </Reference>
     <Reference Include="PhotonVoice.API">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonVoice.API.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\PhotonVoice.API.dll</HintPath>
     </Reference>
     <Reference Include="PhotonVoice.Fusion">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonVoice.Fusion.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\PhotonVoice.Fusion.dll</HintPath>
     </Reference>
     <Reference Include="PhotonVoice.PUN">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonVoice.PUN.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\PhotonVoice.PUN.dll</HintPath>
     </Reference>
     <Reference Include="PlayFab">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PlayFab.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\PlayFab.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Cinemachine">
       <HintPath>$(GameAssemblyPath)\Unity.Cinemachine.dll</HintPath>
@@ -380,7 +385,7 @@
       <HintPath>$(GameAssemblyPath)\UnityEngine.ContentLoadModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CrashReportingModule">
       <HintPath>$(GameAssemblyPath)\UnityEngine.CrashReportingModule.dll</HintPath>
@@ -404,13 +409,13 @@
       <HintPath>$(GameAssemblyPath)\UnityEngine.HotReloadModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputForUIModule">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.InputForUIModule.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\UnityEngine.InputForUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputModule">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\UnityEngine.InputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.JSONSerializeModule">
       <HintPath>$(GameAssemblyPath)\UnityEngine.JSONSerializeModule.dll</HintPath>
@@ -485,13 +490,13 @@
       <HintPath>$(GameAssemblyPath)\UnityEngine.TLSModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UmbraModule">
       <HintPath>$(GameAssemblyPath)\UnityEngine.UmbraModule.dll</HintPath>
@@ -548,7 +553,7 @@
       <HintPath>$(GameAssemblyPath)\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XRModule">
-      <HintPath>D:\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.XRModule.dll</HintPath>
+      <HintPath>$(GameAssemblyPath)\UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
       <HintPath>$(GameAssemblyPath)\Valve.Newtonsoft.Json.dll</HintPath>

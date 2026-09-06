@@ -58,5 +58,7 @@ namespace VladyslavMenu
         public static float gradientSpeed = 0.5f; // Speed of colors
 
         public static bool MenuOutline = true;
+
+        public static bool MenuBody = true;
     }
 }

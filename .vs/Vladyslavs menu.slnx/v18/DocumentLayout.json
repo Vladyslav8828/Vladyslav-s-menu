@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\menu\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:menu\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\manageres\\gamelightmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:manageres\\gamelightmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\menu\\buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:menu\\buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\mods\\other.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:mods\\other.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\manageres\\fileandfoldermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:manageres\\fileandfoldermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\menu\\buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:menu\\buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\mods\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:mods\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\internal\\lightingmanagerpatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\internal\\lightingmanagerpatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\classes\\buttoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:classes\\buttoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\menu\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:menu\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\internal\\playfabtelemetrypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\internal\\playfabtelemetrypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|c:\\users\\\u0442\u0430\u0442\u044C\u044F\u043D\u0430\\documents\\github\\vladyslav-s-menu\\patches\\internal\\rigpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D884FD8-F0B6-D10A-A83E-CAF0939AB160}|Vladyslavs menu.csproj|solutionrelative:patches\\internal\\rigpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,28 +54,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Buttons.cs",
               "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Buttons.cs",
               "RelativeDocumentMoniker": "Menu\\Buttons.cs",
               "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Buttons.cs",
               "RelativeToolTip": "Menu\\Buttons.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAwFQAAAB2AAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwFcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T22:38:32.074Z",
+              "WhenOpened": "2026-08-27T18:42:30.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Settings.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Settings.cs",
-              "RelativeDocumentMoniker": "Menu\\Settings.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Settings.cs",
-              "RelativeToolTip": "Menu\\Settings.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Title": "GameLightManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Manageres\\GameLightManager.cs",
+              "RelativeDocumentMoniker": "Manageres\\GameLightManager.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Manageres\\GameLightManager.cs",
+              "RelativeToolTip": "Manageres\\GameLightManager.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T23:29:44.539Z",
+              "WhenOpened": "2026-08-27T18:42:26.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Other.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Mods\\Other.cs",
+              "RelativeDocumentMoniker": "Mods\\Other.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Mods\\Other.cs",
+              "RelativeToolTip": "Mods\\Other.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAD4v6gAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T18:24:34.841Z",
               "EditorCaption": ""
             },
             {
@@ -62,22 +99,87 @@
               "RelativeDocumentMoniker": "Manageres\\FileAndFolderManager.cs",
               "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Manageres\\FileAndFolderManager.cs",
               "RelativeToolTip": "Manageres\\FileAndFolderManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswBIAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-26T21:28:22.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "Movement.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Mods\\Movement.cs",
+              "RelativeDocumentMoniker": "Mods\\Movement.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Mods\\Movement.cs",
+              "RelativeToolTip": "Mods\\Movement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T22:01:28.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LightingManagerPatches.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\LightingManagerPatches.cs",
+              "RelativeDocumentMoniker": "Patches\\Internal\\LightingManagerPatches.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\LightingManagerPatches.cs",
+              "RelativeToolTip": "Patches\\Internal\\LightingManagerPatches.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAD4vxoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T18:51:29.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ButtonInfo.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ButtonInfo.cs",
+              "RelativeDocumentMoniker": "Classes\\ButtonInfo.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Classes\\ButtonInfo.cs",
+              "RelativeToolTip": "Classes\\ButtonInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T19:17:38.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Main.cs",
               "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Main.cs",
               "RelativeDocumentMoniker": "Menu\\Main.cs",
               "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Menu\\Main.cs",
               "RelativeToolTip": "Menu\\Main.cs",
-              "ViewState": "AgIAAIYDAAAAAAAAAAAAAJcDAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T22:36:09.51Z",
+              "WhenOpened": "2026-08-27T18:53:31.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayFabTelemetryPatches.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\PlayFabTelemetryPatches.cs",
+              "RelativeDocumentMoniker": "Patches\\Internal\\PlayFabTelemetryPatches.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\PlayFabTelemetryPatches.cs",
+              "RelativeToolTip": "Patches\\Internal\\PlayFabTelemetryPatches.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T18:52:44.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RigPatch.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\RigPatch.cs",
+              "RelativeDocumentMoniker": "Patches\\Internal\\RigPatch.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Documents\\GitHub\\Vladyslav-s-menu\\Patches\\Internal\\RigPatch.cs",
+              "RelativeToolTip": "Patches\\Internal\\RigPatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T18:52:42.043Z",
               "EditorCaption": ""
             },
             {

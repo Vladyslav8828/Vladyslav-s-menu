@@ -41,7 +41,6 @@
           "LIV.LCK.Streaming": "0.0.0.0",
           "LIV.LCKCore": "0.0.0.0",
           "LIV.LCKCore.ThirdParty.MessagePack": "0.0.0.0",
-          "LIV.LCK_GorillaTag": "0.0.0.0",
           "LIV.NativeAudioBridge": "0.0.0.0",
           "MeshBakerCore": "0.0.0.0",
           "Meta.WitAi": "0.0.0.0",
@@ -191,7 +190,7 @@
           "VoiceSDK.Dictation.Runtime": "0.0.0.0",
           "VoiceSDK.Runtime": "0.0.0.0",
           "VYaml.Core": "0.0.0.0",
-          "websocket-sharp": "1.0.2.0",
+          "websocket-sharp": "1.0.2.32414",
           "ZString": "0.0.0.0"
         },
         "runtime": {
@@ -474,14 +473,6 @@
           }
         }
       },
-      "LIV.LCK_GorillaTag/0.0.0.0": {
-        "runtime": {
-          "LIV.LCK_GorillaTag.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
       "LIV.NativeAudioBridge/0.0.0.0": {
         "runtime": {
           "LIV.NativeAudioBridge.dll": {
@@ -606,7 +597,7 @@
         "runtime": {
           "Mono.Security.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.0"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -862,7 +853,7 @@
         "runtime": {
           "Unity.Burst.Unsafe.dll": {
             "assemblyVersion": "4.0.5.0",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "4.0.0.0"
           }
         }
       },
@@ -902,7 +893,7 @@
         "runtime": {
           "Unity.InputSystem.dll": {
             "assemblyVersion": "1.14.2.0",
-            "fileVersion": "1.14.2.0"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1674,11 +1665,11 @@
           }
         }
       },
-      "websocket-sharp/1.0.2.0": {
+      "websocket-sharp/1.0.2.32414": {
         "runtime": {
           "websocket-sharp.dll": {
-            "assemblyVersion": "1.0.2.0",
-            "fileVersion": "1.0.2.0"
+            "assemblyVersion": "1.0.2.32414",
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1751,6 +1742,14 @@
           "Backtrace.Unity.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "arcade_success/1.2.4.2": {
+        "runtime": {
+          "arcade_success.dll": {
+            "assemblyVersion": "1.2.4.2",
+            "fileVersion": "1.2.4.2"
           }
         }
       },
@@ -2152,11 +2151,6 @@
       "sha512": ""
     },
     "LIV.LCKCore.ThirdParty.MessagePack/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "LIV.LCK_GorillaTag/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -2906,7 +2900,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "websocket-sharp/1.0.2.0": {
+    "websocket-sharp/1.0.2.32414": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -2952,6 +2946,11 @@
       "sha512": ""
     },
     "Backtrace.Unity/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "arcade_success/1.2.4.2": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
