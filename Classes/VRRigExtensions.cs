@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using static VladyslavMenu.Menu.Main;
+using VladyslavMenu.Classes;
 
 namespace VladyslavMenu.Classes
 {
@@ -16,7 +17,6 @@ namespace VladyslavMenu.Classes
     {
         public static bool Active(this VRRig rig) =>
             rig != null && ActiveRigs.Contains(rig);
-
         private static int _lastFrame = -1;
         private static readonly List<VRRig> _rigs = new List<VRRig>();
         private static readonly object _lock = new object();

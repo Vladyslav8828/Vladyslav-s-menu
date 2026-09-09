@@ -1,4 +1,5 @@
-﻿using BepInEx;
+﻿using System.IO;
+using BepInEx;
 using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.Management;
@@ -22,8 +23,16 @@ namespace VladyslavMenu
                            $"                              {PluginInfo.Name}                                   \r\n" +
                            $"                            {PluginInfo.Description}                                   \r\n" +
                            $"                                    {PluginInfo.Version}                                   \r\n");
+
+            if (File.Exists(FileAndFolderManager.MenuFolderDirectory) == false)
+            {
+                FileAndFolderManager.CreateMenuFolders();
+            }
         }
-        public void OnPlayerSpawned() =>
+        public void OnPlayerSpawned()
+        {
             Patches.PatchHandler.PatchAll();
+            FileAndFolderManager.LoadModsOrSettings();
+        }
     }
 }

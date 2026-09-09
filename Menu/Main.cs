@@ -40,8 +40,11 @@ namespace VladyslavMenu.Menu
         // Constant
         public static void Prefix()
         {
-            CreateMenuFolders();
+            FileAndFolderManager.SaveModsOrSettings();
+            JoystickManager.Update();
             // Initialize Menu
+
+
             try
             {
                 bool toOpen = (!rightHanded && ControllerInputPoller.instance.leftControllerSecondaryButton) || (rightHanded && ControllerInputPoller.instance.rightControllerSecondaryButton);
@@ -353,11 +356,6 @@ namespace VladyslavMenu.Menu
             for (int i = 0; i < activeButtons.Length; i++)
                 CreateButton(i * 0.1f, activeButtons[i]);
         }
-
-
-
-
-
 
         public static void CreateButton(float offset, ButtonInfo method)
         {
@@ -847,9 +845,9 @@ namespace VladyslavMenu.Menu
             Transform GunTransform = GorillaTagger.Instance.rightHandTransform;
 
             Vector3 StartPosition = GunTransform.position;
-            Vector3 Direction = GunTransform.forward;
+            Vector3 Direction = GunTransform.up/*original is forward*/;
 
-            Physics.Raycast(StartPosition + Direction / 4f, Direction, out var Ray, 512f, overrideLayerMask ?? NoInvisLayerMask());
+            Physics.Raycast(StartPosition + Direction / 4f/*original is 4*/, Direction, out var Ray, 512f, overrideLayerMask ?? NoInvisLayerMask());
             Vector3 EndPosition = gunLocked ? lockTarget.transform.position : Ray.point;
 
             if (EndPosition == Vector3.zero)
@@ -918,11 +916,5 @@ namespace VladyslavMenu.Menu
         }
 
         //just a reminder for later to use strings when writing files to a folder :)
-        public static void CreateMenuFolders()
-        {
-            Directory.CreateDirectory(FileAndFolderManager.MenuFolderDirectory);
-
-            Directory.CreateDirectory(FileAndFolderManager.SettingsFolderDirectory);
-        }
     }
 }

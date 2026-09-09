@@ -573,5 +573,16 @@
     <Reference Include="ZString">
       <HintPath>$(GameAssemblyPath)\ZString.dll</HintPath>
     </Reference>
+    <!-- SteamVr/Valve refs -->
+    <Reference Include="SteamVR.dll">
+      <HintPath>$(GameAssemblyPath)\SteamVR.dll.dll</HintPath>
+    </Reference>
+    <Reference Include="SteamVR_Actions">
+      <HintPath>$(GameAssemblyPath)\SteamVR_Actions.dll</HintPath>
+    </Reference>
+    <Reference Include="com.rlabrecque.steamworks.net">
+      <HintPath>$(GameAssemblyPath)\com.rlabrecque.steamworks.net.dll</HintPath>
+    </Reference>
+    
   </ItemGroup>
 </Project>

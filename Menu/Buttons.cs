@@ -64,7 +64,12 @@ namespace VladyslavMenu.Menu
 
                 new ButtonInfo { buttonText = "Platforms", method =() => Movement.Platforms(), toolTip = "Spawns platforms on your hands when pressing grip."},
 
+                new ButtonInfo { buttonText = "Faster Fly", method =() => Movement.FasterFly(), toolTip = "Sends you forward when holding A. (2x speed)"},
                 new ButtonInfo { buttonText = "Fly", method =() => Movement.Fly(), toolTip = "Sends you forward when holding A."},
+                new ButtonInfo { buttonText = "Slower Fly", method =() => Movement.SlowerFly(), toolTip = "Sends you forward when holding A. (2/ speed)"},
+                new ButtonInfo { buttonText = "Add Forward Velocity", method =() => Movement.AddVelocityForward(), toolTip = "Sends you forward when holding A. With velocity build up."},
+                new ButtonInfo { buttonText = "Joystick Fly", method =() => Movement.joystickFly(), toolTip = "Basicly bark fly."},
+
             },
 
             new ButtonInfo[] { // Safety [6]
