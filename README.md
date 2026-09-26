@@ -1,5 +1,5 @@
 # Vladyslav`s menu
-A gorilla tag mod menu made form code other made and i fixed/used
+A gorilla tag mod menu made form code
 
 <details>
   <summary><b>Why open-source?</b></summary>
