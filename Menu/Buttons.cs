@@ -30,7 +30,7 @@ namespace VladyslavMenu.Menu
                 new ButtonInfo { buttonText = "Safety", method =() => currentCategory = 6, isTogglable = false, toolTip = "Opens the safety mods tab."},
                 new ButtonInfo { buttonText = "Guns", method =() => currentCategory = 7, isTogglable = false, toolTip = "Opens the Guns tab."},
                 new ButtonInfo { buttonText = "Other", method =() => currentCategory = 8, isTogglable = false, toolTip = "Opens the Other tab."},
-                new ButtonInfo { buttonText = "Admin Mods", method =() => currentCategory = 9, isTogglable = false, toolTip = "Opens the Admin tab."},
+                //new ButtonInfo { buttonText = "Admin Mods", method =() => currentCategory = 9, isTogglable = false, toolTip = "Opens the Admin tab."},
             },
 
             new ButtonInfo[] { // Settings [1]
