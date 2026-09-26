@@ -1,5 +1,6 @@
 ﻿using UnityEngine.UI;
 using VladyslavMenu.Classes;
+using VladyslavMenu.Managers;
 using VladyslavMenu.Mods;
 using static VladyslavMenu.Menu.Main;
 using static VladyslavMenu.Settings;
@@ -29,6 +30,7 @@ namespace VladyslavMenu.Menu
                 new ButtonInfo { buttonText = "Safety", method =() => currentCategory = 6, isTogglable = false, toolTip = "Opens the safety mods tab."},
                 new ButtonInfo { buttonText = "Guns", method =() => currentCategory = 7, isTogglable = false, toolTip = "Opens the Guns tab."},
                 new ButtonInfo { buttonText = "Other", method =() => currentCategory = 8, isTogglable = false, toolTip = "Opens the Other tab."},
+                new ButtonInfo { buttonText = "Admin Mods", method =() => currentCategory = 9, isTogglable = false, toolTip = "Opens the Admin tab."},
             },
 
             new ButtonInfo[] { // Settings [1]
@@ -82,17 +84,20 @@ namespace VladyslavMenu.Menu
                 new ButtonInfo { buttonText = "Return to Main", method =() => currentCategory = 0, isTogglable = false, toolTip = "Returns to the main page of the menu."},
 
                 new ButtonInfo { buttonText = "Teleport Gun", method =() => Guns.TeleportGun(), toolTip = "Teleports you to where you point."},
-                //new ButtonInfo { buttonText = "Light Gun <color=grey>[</color><color=green>Ghost Reactor Lightning</color><color=grey>]</color> <color=grey>[</color><color=green>CS</color><color=grey>]</color>", method =() => Guns.LightGun(), toolTip = "Spawns a light on your gun."},
             },
 
             new ButtonInfo[] { // Other [8]
                 new ButtonInfo { buttonText = "Return to Main", method =() => currentCategory = 0, isTogglable = false, toolTip = "Returns to the main page of the menu."},
 
-                //new ButtonInfo { buttonText = "Attic <color=grey>[</color><color=green>CS</color><color=grey>]</color>",  enableMethod =() => Other.OgMonkeyBlocksOn(), disableMethod =() => Other.OgMonkeyBlocksOff(),toolTip = "Trys to bring back the attic for the old days"}, //broken rn and i am lazy to fix
                 new ButtonInfo { buttonText = "Ghost Reactor Lightning <color=grey>[</color><color=green>CS</color><color=grey>]</color>", enableMethod =() => Other.GhostReactorLightning(), disableMethod =() => Other.GhostReactorLightningOff(),toolTip = "Toggles the ghost reactor lightning."},
                 new ButtonInfo { buttonText = "FlashLight <color=grey>[</color><color=green>Ghost Reactor Lightning</color><color=grey>]</color> <color=grey>[</color><color=green>CS</color><color=grey>]</color>", enableMethod =() => Other.GhostReactorCameraLight(), disableMethod =() => Other.GhostReactorCameraLightOff(),toolTip = "Spawns a light on your head."},
-                //new ButtonInfo { buttonText = "Lights Preset <color=grey>[</color><color=green>Ghost Reactor Lightning</color><color=grey>]</color> <color=grey>[</color><color=green>CS</color><color=grey>]</color>", enableMethod =() => Other.GhostReactorLightsPreset(), disableMethod =() => Other.GhostReactorLightsPresetOff(),toolTip = "Spawns a light on your hand."},
+                //new ButtonInfo { buttonText = "Safe Your Id", method =() => Other.SafeYourId(), isTogglable = false,toolTip = "Save your id to a file for debugging (does NOT send it any where)."},
             },
+            /*new ButtonInfo[] { // AdminShit [9]
+                new ButtonInfo { buttonText = "Return to Main", method =() => currentCategory = 0, isTogglable = false, toolTip = "Returns to the main page of the menu."},
+
+                new ButtonInfo { buttonText = "Admin Room Announcment",  method =() => AdminMods.Announcement(), isTogglable = false,toolTip = "Sends what ever is in that .txt file to the whole room who has the menu. Only sends the first line."},
+            },*/
         };
     }
 }

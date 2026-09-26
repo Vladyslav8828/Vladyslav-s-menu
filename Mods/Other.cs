@@ -126,5 +126,12 @@ namespace VladyslavMenu.Mods
 
         
         #endregion
+
+        /*#region safe you id
+        public static void SafeYourId()
+        {
+            FileAndFolderManager.SaveYourIdToFile();
+        }
+        #endregion*/
     }
 }

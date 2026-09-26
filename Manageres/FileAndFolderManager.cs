@@ -16,6 +16,7 @@ using VladyslavMenu.Notifications;
 using static VladyslavMenu.Menu.Buttons;
 using static VladyslavMenu.Settings;
 using GorillaExtensions;
+using Steamworks;
 
 namespace VladyslavMenu.Managers
 {
@@ -26,9 +27,13 @@ namespace VladyslavMenu.Managers
         public static string GameDirectory => Directory.GetParent(BeplnExDirectory).FullName;
 
         public static string MenuFolderDirectory = Path.Combine(GameDirectory, "Vladyslavs Menu");
+        #region Vladyslavs Menu
+        public static string YourIdFile = Path.Combine(MenuFolderDirectory, "YourId.json");
         public static string SavedModsOrSettingsFile = Path.Combine(MenuFolderDirectory, "Save.json");
-
-        public static float UserModsOrSettingsColdown = 20f; //twety second coldow (sorry if i spelled it worng my english is not very good :[)
+        #endregion
+        
+        #region save system
+        public static float UserModsOrSettingsColdown = 30f; //thirty second coldow (sorry if i spelled it worng my english is not very good :[)
 
         public static List<string> ModsToBeSaved = new List<string>();
 
@@ -36,9 +41,7 @@ namespace VladyslavMenu.Managers
         {
             if (UserModsOrSettingsColdown <= 0f)
             {
-                UserModsOrSettingsColdown = 20f;
-
-                
+                UserModsOrSettingsColdown = 30f;
 
                 SaveModsOrSettings();
 
@@ -46,7 +49,7 @@ namespace VladyslavMenu.Managers
             }
             else
             {
-                FileAndFolderManager.UserModsOrSettingsColdown = UserModsOrSettingsColdown - Time.deltaTime;
+                FileAndFolderManager.UserModsOrSettingsColdown = UserModsOrSettingsColdown - 0.01f;
             }
         }
 
@@ -58,7 +61,10 @@ namespace VladyslavMenu.Managers
                 {
                     if (button.enabled == true)
                     {
-                        ModsToBeSaved.Add(button.buttonText); 
+                        if (button.isTogglable == true)
+                        {
+                            ModsToBeSaved.Add(button.buttonText); 
+                        }
                     }
                 }
             }
@@ -92,11 +98,17 @@ namespace VladyslavMenu.Managers
                 }
             }
         }
-
+        #endregion
         //just a reminder for later to use strings when writing files to a folder :)
         public static void CreateMenuFolders()
         {
             Directory.CreateDirectory(FileAndFolderManager.MenuFolderDirectory);
         }
+
+        //saves you id to a file btw
+        /*public static void SaveYourIdToFile()
+        {
+            File.WriteAllText(YourIdFile, IDS.YourId);
+        }*/
     }
 }

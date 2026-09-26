@@ -114,6 +114,33 @@ namespace VladyslavMenu.Notifications
             }
         }
 
+        public static void SendNotificationError(string NotificationText)
+        {
+            string Errorext = "<color=grey>[</color><color=red>Error</color><color=grey>]</color>";
+
+            if (!disableNotifications)
+            {
+                try
+                {
+                    if (IsEnabled && PreviousNotifi != NotificationText)
+                    {
+                        if (!NotificationText.Contains(Environment.NewLine))
+                        {
+                            NotificationText += Environment.NewLine;
+                        }
+                        NotifiText.text = NotifiText.text + Errorext + NotificationText;
+                        NotifiText.supportRichText = true;
+                        PreviousNotifi = Errorext + NotificationText;
+                    }
+                }
+                catch
+                {
+                    Debug.LogError("Notification failed, object probably nil due to third person ; " + Errorext + NotificationText);
+                }
+            }
+        }
+
+
         public static void ClearAllNotifications()
         {
             //NotifiLib.NotifiText.text = "<color=grey>[</color><color=green>SUCCESS</color><color=grey>]</color> <color=white>Notifications cleared.</color>" + Environment.NewLine;

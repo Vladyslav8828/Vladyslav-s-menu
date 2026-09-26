@@ -47,7 +47,6 @@ namespace VladyslavMenu.Classes
 
                 return _rigs;
             }
-
         }
     }
 }

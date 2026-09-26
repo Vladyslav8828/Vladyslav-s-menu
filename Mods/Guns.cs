@@ -38,39 +38,5 @@ namespace VladyslavMenu.Mods
             }
         }
         #endregion
-
-        #region LightGun
-        
-        public static bool previousLightTrigger;
-
-        public static GameLight GunLight_VladyslavMenu;
-        public static void LightGun()
-        {
-            if (ControllerInputPoller.instance.rightGrab)
-            {
-                var GunData = RenderGun();
-                GameObject NewPointer = GunData.NewPointer;
-
-                if (ControllerInputPoller.TriggerFloat(XRNode.RightHand) > 0.5f && !previousLightTrigger)
-                {
-                    GunLight_VladyslavMenu = NewPointer.GetComponentInChildren<GameLight>(includeInactive: true);
-                    GunLight_VladyslavMenu.gameObject.SetActive(value: true);
-                    GunLight_VladyslavMenu.range = 0.005f;
-
-                }
-                previousLightTrigger = ControllerInputPoller.TriggerFloat(XRNode.RightHand) > 0.5f;
-            }
-            else 
-            {
-                var gunData = RenderGun();
-                Object.Destroy(gunData.NewPointer);
-                Object.Destroy(GameObject.Find("VladyslavMenu_GunLine"));
-
-                GunLight_VladyslavMenu.range = 0f;
-            }
-        }
-        
-        #endregion
-        // the light gun is wip (broken)
     }
 }

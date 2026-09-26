@@ -32,7 +32,8 @@ namespace VladyslavMenu
         public void OnPlayerSpawned()
         {
             Patches.PatchHandler.PatchAll();
-            FileAndFolderManager.LoadModsOrSettings();
+            //IDS.MakeYourIdYourId();
+            //FileAndFolderManager.LoadModsOrSettings();
         }
     }
 }

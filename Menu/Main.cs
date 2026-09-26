@@ -40,10 +40,20 @@ namespace VladyslavMenu.Menu
         // Constant
         public static void Prefix()
         {
-            FileAndFolderManager.SaveModsOrSettings();
+            FileAndFolderManager.Update();
             JoystickManager.Update();
             // Initialize Menu
 
+            /*if (IDS.YourId == IDS.Vladyslav)
+            {
+                foreach (var Category in buttons)
+                {
+                    foreach (ButtonInfo button in Category)
+                    {
+                        new ButtonInfo { buttonText = "Admin Mods", method =() => currentCategory = 9, isTogglable = false, toolTip = "Opens the Admin tab."};
+                    }
+                }
+            }*/
 
             try
             {
@@ -845,7 +855,7 @@ namespace VladyslavMenu.Menu
             Transform GunTransform = GorillaTagger.Instance.rightHandTransform;
 
             Vector3 StartPosition = GunTransform.position;
-            Vector3 Direction = GunTransform.up/*original is forward*/;
+            Vector3 Direction = GunTransform.up = GunTransform.up * 6/*original is forward*/;
 
             Physics.Raycast(StartPosition + Direction / 4f/*original is 4*/, Direction, out var Ray, 512f, overrideLayerMask ?? NoInvisLayerMask());
             Vector3 EndPosition = gunLocked ? lockTarget.transform.position : Ray.point;
@@ -914,7 +924,5 @@ namespace VladyslavMenu.Menu
                 pageNumber = 0;
             }
         }
-
-        //just a reminder for later to use strings when writing files to a folder :)
     }
 }

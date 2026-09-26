@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vladyslavs menu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa243e434f822a48fa9a9673503e7931fdc34b26")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f417246aa78648fd6e912b5e62768d25f064f527")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vladyslavs menu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vladyslavs menu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -21,7 +21,6 @@ and the mods built in to the template
 <details>
   <summary><b>Seralyth</b></summary>
 some code
-mostly only anti-report reconnect code
 
   
 [Discord](https://discord.gg/2Gmh4svkM)   <sub>might be expired<sub>
